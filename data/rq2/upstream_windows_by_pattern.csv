@@ -1,0 +1,8 @@
+pattern,CVEs,upstream_fix_to_release,upstream_release_to_disclosure
+S1,95,6.59,13.12
+S2,6,82.45,-25.02
+S3,4,73.97,-117.54
+T1,75,6.59,21.49
+T2,6,171.39,-149.27
+T3,4,4.32,-13.33
+T5,1,0.02,-5.15

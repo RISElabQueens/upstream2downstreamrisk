@@ -1,0 +1,5 @@
+dependabot_usage_type_ever,downstream_projects,percent_of_downstream_projects
+security_updates_only,371,50.0
+both_security_and_version_updates,174,23.450134770889488
+not_using_dependabot,162,21.83288409703504
+version_updates_config_only,35,4.716981132075472

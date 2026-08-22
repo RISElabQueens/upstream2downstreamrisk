@@ -1,0 +1,727 @@
+source_row_index,CVE_ID,Commit Message,Links in Message,Link Presence,PATCH,repository,first_patch_url,page_status,page_error,clickable_links,recovered_first_link,recovered_first_link_type,recovery_status,failure_reason,recovered_link_clean,recovered_link_type_for_created_date,recovered_link,mined_recovered_link_type,recovered_link_created_at,recovered_link_created_date_source,recovered_link_created_date_status,recovered_link_created_date_reason,created_date_kind
+0,CVE-2020-26217,Fix for CVE-2017-9805.,,contains links,https://github.com/x-stream/xstream/commit/0fec095d534126931c99fd38e9c6d41f5c685c1a,x-stream/xstream,https://github.com/x-stream/xstream/commit/0fec095d534126931c99fd38e9c6d41f5c685c1a,200,,https://github.com/advisories/GHSA-gg9m-fj3v-r58c; https://github.com/x-stream/xstream/commit/573fbafb06859ecb3a836bd6fe2afacfc5cdabcc,https://github.com/advisories/GHSA-gg9m-fj3v-r58c,github advisory,successful,,https://github.com/advisories/GHSA-gg9m-fj3v-r58c,github advisory,https://github.com/advisories/GHSA-gg9m-fj3v-r58c,github advisory,2018-10-16T19:37:56Z,https://api.github.com/advisories/GHSA-gg9m-fj3v-r58c,ok,GitHub advisory API exposes published_at; used as advisory availability date,published_at
+1,CVE-2019-3888,"[UNDERTOW-1515] HttpServerExchange.toString does not include headers
+
+This reverts commit 51144633f22ba0e73ee1f435db72025720395797.",,contains links,https://github.com/undertow-io/undertow/commit/20cacc96c0594f4f4f9bb1cc2b93a77b6be3f74c;https://github.com/undertow-io/undertow/commit/9bf05b765e222dd106fee9b46314061b18b7275e,undertow-io/undertow,https://github.com/undertow-io/undertow/commit/20cacc96c0594f4f4f9bb1cc2b93a77b6be3f74c,200,,https://github.com/undertow-io/undertow/commit/51144633f22ba0e73ee1f435db72025720395797; https://github.com/undertow-io/undertow/commit/be69bddcf5af1d98714fc316220a3aae4bebb3ec,https://github.com/undertow-io/undertow/commit/51144633f22ba0e73ee1f435db72025720395797,github commit,successful,,https://github.com/undertow-io/undertow/commit/51144633f22ba0e73ee1f435db72025720395797,github commit,https://github.com/undertow-io/undertow/commit/51144633f22ba0e73ee1f435db72025720395797,github commit,2015-08-16T23:19:14Z,https://api.github.com/repos/undertow-io/undertow/commits/51144633f22ba0e73ee1f435db72025720395797,ok,GitHub commit URL has no created_at; used commit committer date,commit_committer_date
+2,CVE-2020-9492,"SPNEGO TLS verification
+
+Signed-off-by: Akira Ajisaka <aajisaka@apache.org>
+(cherry picked from commit ba66f3b454a5f6ea84f2cf7ac0082c555e2954a7)
+
+ Conflicts:
+	hadoop-hdfs-project/hadoop-hdfs-client/src/main/java/org/apache/hadoop/hdfs/web/WebHdfsFileSystem.java",,contains links,https://github.com/apache/hadoop/commit/28715b584ab25dedc600cc2d5d22866865026bf7,apache/hadoop,https://github.com/apache/hadoop/commit/28715b584ab25dedc600cc2d5d22866865026bf7,200,,https://github.com/apache/hadoop/commit/ba66f3b454a5f6ea84f2cf7ac0082c555e2954a7; https://github.com/apache/hadoop/commit/4cf7bbf04345a9e72302eca536b5975bee5c4e47,https://github.com/apache/hadoop/commit/ba66f3b454a5f6ea84f2cf7ac0082c555e2954a7,github commit,successful,,https://github.com/apache/hadoop/commit/ba66f3b454a5f6ea84f2cf7ac0082c555e2954a7,github commit,https://github.com/apache/hadoop/commit/ba66f3b454a5f6ea84f2cf7ac0082c555e2954a7,github commit,2020-05-02T12:50:13Z,https://api.github.com/repos/apache/hadoop/commits/ba66f3b454a5f6ea84f2cf7ac0082c555e2954a7,ok,GitHub commit URL has no created_at; used commit committer date,commit_committer_date
+3,CVE-2017-12626,not found,,contains links,https://github.com/apache/poi/commit/cd6236c74b55763a27e3e9b5f269c28bc9c98419;https://github.com/apache/poi/commit/c7db66a30dfb6cbbd5812ff3ae4c90ed2d9b9a27;https://github.com/apache/poi/commit/a07ed9e86474da98f204efadfd5b9327009a0d21;https://github.com/apache/poi/commit/df3910135fd9c442b4e746e4b156362fd2e8d755,apache/poi,https://github.com/apache/poi/commit/cd6236c74b55763a27e3e9b5f269c28bc9c98419,200,,https://svn.apache.org/repos/asf/poi/trunk@1793602; https://github.com/apache/poi/commit/a0b324224b9f756a6c2b9c61e0c66a7dd96f9ea7,https://svn.apache.org/repos/asf/poi/trunk@1793602,source/tracker link,successful,,https://svn.apache.org/repos/asf/poi/trunk@1793602,svn/source link,https://svn.apache.org/repos/asf/poi/trunk@1793602,svn/source link,,https://svn.apache.org/repos/asf/poi/trunk@1793602,not_available,"SVN revision date not found for r1793602; last error: <!DOCTYPE HTML PUBLIC ""-//IETF//DTD HTML 2.0//EN"">
+<html><head>
+<title>401 Unauthorized</title>
+</head><body>
+<h1>Unauthorized</h1>
+<p>This server could not verify that you
+are authorized to access the document
+requested.  Either you supplied the wrong
+credentials (e.g., bad password), or your
+browser doesn't understand how to supply
+the credentials required.</p>
+</body></html>
+ (401) for https://svn.apache.org/repos/asf/poi/trunk@1793602",
+4,CVE-2016-1182,Fixed CVE-2016-1181 and CVE-2016-1182,,contains links,https://github.com/kawasima/struts1-forever/commit/eda3a79907ed8fcb0387a0496d0cb14332f250e8,kawasima/struts1-forever,https://github.com/kawasima/struts1-forever/commit/eda3a79907ed8fcb0387a0496d0cb14332f250e8,200,,https://github.com/advisories/GHSA-7jw3-5q4w-89qg; https://github.com/advisories/GHSA-5ggr-mpgw-3mgx; https://github.com/kawasima/struts1-forever/commit/fdd9eb8f94ca75eb9effac9602b9d4ee0cb904b5,https://github.com/advisories/GHSA-7jw3-5q4w-89qg,github advisory,successful,,https://github.com/advisories/GHSA-7jw3-5q4w-89qg,github advisory,https://github.com/advisories/GHSA-7jw3-5q4w-89qg,github advisory,2022-05-13T01:25:20Z,https://api.github.com/advisories/GHSA-7jw3-5q4w-89qg,ok,GitHub advisory API exposes published_at; used as advisory availability date,published_at
+5,CVE-2017-15713,"Fixing Job History Server Configuration parsing. (Jason Lowe via asuresh)
+
+(cherry picked from commit b3df744fb651d480050cf355f7004e50e30f22ff)",,contains links,https://github.com/apache/hadoop/commit/feb886f2093ea5da0cd09c69bd1360a335335c86,apache/hadoop,https://github.com/apache/hadoop/commit/feb886f2093ea5da0cd09c69bd1360a335335c86,200,,https://github.com/apache/hadoop/commit/b3df744fb651d480050cf355f7004e50e30f22ff; https://github.com/apache/hadoop/commit/0c86dc82179c018b387d9471b3dc4dc04c331300,https://github.com/apache/hadoop/commit/b3df744fb651d480050cf355f7004e50e30f22ff,github commit,successful,,https://github.com/apache/hadoop/commit/b3df744fb651d480050cf355f7004e50e30f22ff,github commit,https://github.com/apache/hadoop/commit/b3df744fb651d480050cf355f7004e50e30f22ff,github commit,2017-11-09T23:25:59Z,https://api.github.com/repos/apache/hadoop/commits/b3df744fb651d480050cf355f7004e50e30f22ff,ok,GitHub commit URL has no created_at; used commit committer date,commit_committer_date
+6,CVE-2021-20218,fix: CVE-2021-20218 vulnerable to a path traversal,,contains links,https://github.com/fabric8io/kubernetes-client/commit/857c8733a89d59ca34c268a00aa4708bb2566a35,fabric8io/kubernetes-client,https://github.com/fabric8io/kubernetes-client/commit/857c8733a89d59ca34c268a00aa4708bb2566a35,200,,https://github.com/advisories/GHSA-jwh2-ffg4-48xc; https://github.com/fabric8io/kubernetes-client/commit/613fc1c16fb26e5bd9a49339ae88dfb92b8c77e6,https://github.com/advisories/GHSA-jwh2-ffg4-48xc,github advisory,successful,,https://github.com/advisories/GHSA-jwh2-ffg4-48xc,github advisory,https://github.com/advisories/GHSA-jwh2-ffg4-48xc,github advisory,2022-05-24T17:44:37Z,https://api.github.com/advisories/GHSA-jwh2-ffg4-48xc,ok,GitHub advisory API exposes published_at; used as advisory availability date,published_at
+7,CVE-2016-5001,"HDFS-9574. Reduce client failures during datanode restart. Contributed by Kihwal Lee.
+(cherry picked from commit b06e39de4fc4f9c35afb472eef0bba2adf91954f)
+
+Conflicts:
+	hadoop-hdfs-project/hadoop-hdfs/CHANGES.txt
+	hadoop-hdfs-project/hadoop-hdfs/src/main/java/org/apache/hadoop/hdfs/DFSConfigKeys.java
+	hadoop-hdfs-project/hadoop-hdfs/src/main/java/org/apache/hadoop/hdfs/DFSInputStream.java
+	hadoop-hdfs-project/hadoop-hdfs/src/main/java/org/apache/hadoop/hdfs/server/datanode/DataNodeFaultInjector.java
+	hadoop-hdfs-project/hadoop-hdfs/src/main/java/org/apache/hadoop/hdfs/server/datanode/DataXceiver.java
+	hadoop-hdfs-project/hadoop-hdfs/src/main/resources/hdfs-default.xml",,contains links,https://github.com/apache/hadoop/commit/04b8a19f81ee616c315eec639642439b3a18ad9c,apache/hadoop,https://github.com/apache/hadoop/commit/04b8a19f81ee616c315eec639642439b3a18ad9c,200,,https://issues.apache.org/jira/browse/HDFS-9574; https://github.com/apache/hadoop/commit/b06e39de4fc4f9c35afb472eef0bba2adf91954f; https://github.com/apache/hadoop/commit/9cb288e9faf7556c11c1c4ca963f7eaddd556a2c,https://issues.apache.org/jira/browse/HDFS-9574,apache issue tracker,successful,,https://issues.apache.org/jira/browse/HDFS-9574,jira issue tracker,https://issues.apache.org/jira/browse/HDFS-9574,jira issue tracker,2015-12-17T23:03:00Z,https://issues.apache.org/jira/browse/HDFS-9574,ok,parsed from Jira HTML fallback,created_at
+8,CVE-2021-43797,"Merge pull request from GHSA-wx5j-54mm-rqqq
+
+Motivation:
+
+We should validate that only OWS is allowed before / after a header name and otherwise throw. At the moment we just ""strip"" everything except OWS.
+
+Modifications:
+
+- Adjust code to correctly validate
+- Add unit tests
+
+Result:
+
+More strict and correct behaviour",,contains links,https://github.com/netty/netty/commit/07aa6b5938a8b6ed7a6586e066400e2643897323,netty/netty,https://github.com/netty/netty/commit/07aa6b5938a8b6ed7a6586e066400e2643897323,200,,https://github.com/advisories/GHSA-wx5j-54mm-rqqq; https://github.com/netty/netty/commit/d80a34ecf84bbe153b60123b059deabcc97a8935,https://github.com/advisories/GHSA-wx5j-54mm-rqqq,github advisory,successful,,https://github.com/advisories/GHSA-wx5j-54mm-rqqq,github advisory,https://github.com/advisories/GHSA-wx5j-54mm-rqqq,github advisory,2021-12-09T19:09:17Z,https://api.github.com/advisories/GHSA-wx5j-54mm-rqqq,ok,GitHub advisory API exposes published_at; used as advisory availability date,published_at
+9,CVE-2019-3802,"DATAJPA-1534 - Escape wildcards in QBE Like-queries.
+
+The `StringMatcher` values `STARTING`, `ENDING`, and `CONTAINING` now escape wildcards in their parameters.
+
+See also: DATAJPA-1519, DATAJPA-1522.",,contains links,https://github.com/spring-projects/spring-data-jpa/commit/33027dc370f418981f41f8fdfebc7173155960a1,spring-projects/spring-data-jpa,https://github.com/spring-projects/spring-data-jpa/commit/33027dc370f418981f41f8fdfebc7173155960a1,200,,https://jira.spring.io/browse/DATAJPA-1534; https://jira.spring.io/browse/DATAJPA-1519; https://jira.spring.io/browse/DATAJPA-1522; https://github.com/spring-projects/spring-data-jpa/commit/9fc8f4b24347df76793bb8a0e210d26075518e9d,https://jira.spring.io/browse/DATAJPA-1534,jira issue tracker,successful,,https://jira.spring.io/browse/DATAJPA-1534,jira issue tracker,https://jira.spring.io/browse/DATAJPA-1534,jira issue tracker,,https://jira.spring.io/browse/DATAJPA-1534,not_available,,
+10,CVE-2013-5823,not found,,contains links,https://github.com/apache/santuario-java/commit/55a48497dfbf3fe63a81e67c13160b3f41ebb1f3;https://github.com/apache/santuario-java/commit/f9a61f2df9473237aa71308c28113540b4063d33,apache/santuario-java,https://github.com/apache/santuario-java/commit/55a48497dfbf3fe63a81e67c13160b3f41ebb1f3,200,,https://svn.apache.org/repos/asf/santuario/xml-security-java/branches/1.4.x-fixes@1367505; https://github.com/apache/santuario-java/commit/d89309d303d5fb1e91bb988e0c3552a6da477411,https://svn.apache.org/repos/asf/santuario/xml-security-java/branches/1.4.x-fixes@1367505,source/tracker link,successful,,https://svn.apache.org/repos/asf/santuario/xml-security-java/branches/1.4.x-fixes@1367505,svn/source link,https://svn.apache.org/repos/asf/santuario/xml-security-java/branches/1.4.x-fixes@1367505,svn/source link,,https://svn.apache.org/repos/asf/santuario/xml-security-java/branches/1.4.x-fixes@1367505,not_available,"SVN revision date not found for r1367505; last error: <!DOCTYPE HTML PUBLIC ""-//IETF//DTD HTML 2.0//EN"">
+<html><head>
+<title>401 Unauthorized</title>
+</head><body>
+<h1>Unauthorized</h1>
+<p>This server could not verify that you
+are authorized to access the document
+requested.  Either you supplied the wrong
+credentials (e.g., bad password), or your
+browser doesn't understand how to supply
+the credentials required.</p>
+</body></html>
+ (401) for https://svn.apache.org/repos/asf/santuario/xml-security-java/branches/1.4.x-fixes@1367505",
+11,CVE-2016-8749,CAMEL-10567: Camel-Jackson: Add an option to allow the UnmarshallType header use,,contains links,https://github.com/apache/camel/commit/d4102512147eca2af21c3b6ed63a67d852f4e66;https://github.com/apache/camel/commit/7567488f844f01d72840f7ab6ca18114a11f20d;https://github.com/apache/camel/commit/57d01e2fc8923263df896e9810329ee5b7f9b69,apache/camel,https://github.com/apache/camel/commit/d4102512147eca2af21c3b6ed63a67d852f4e66,200,,https://issues.apache.org/jira/browse/CAMEL-10567; https://github.com/apache/camel/commit/10f552643d7e4565104d142bbc160db5a30f9f7e,https://issues.apache.org/jira/browse/CAMEL-10567,apache issue tracker,successful,,https://issues.apache.org/jira/browse/CAMEL-10567,jira issue tracker,https://issues.apache.org/jira/browse/CAMEL-10567,jira issue tracker,2016-12-07T16:54:00Z,https://issues.apache.org/jira/browse/CAMEL-10567,ok,parsed from Jira HTML fallback,created_at
+12,CVE-2018-1999020,"Fix for OS-13 - don't allow app pathnames to leave the app root
+
+Change-Id: I6bb7be6df8be3dced903f72cef4600532cb118a3
+(cherry picked from commit 10e606aab45365b15f2533e0e92d5047ac6a84fe)",,contains links,https://github.com/opennetworkinglab/onos/commit/4b19da6ce94de4865a365c200d6e8169ffb2184f,opennetworkinglab/onos,https://github.com/opennetworkinglab/onos/commit/4b19da6ce94de4865a365c200d6e8169ffb2184f,200,,https://github.com/opennetworkinglab/onos/commit/10e606aab45365b15f2533e0e92d5047ac6a84fe; https://github.com/opennetworkinglab/onos/commit/5b66ce0da32ce62d71868558b6229da190343676,https://github.com/opennetworkinglab/onos/commit/10e606aab45365b15f2533e0e92d5047ac6a84fe,github commit,successful,,https://github.com/opennetworkinglab/onos/commit/10e606aab45365b15f2533e0e92d5047ac6a84fe,github commit,https://github.com/opennetworkinglab/onos/commit/10e606aab45365b15f2533e0e92d5047ac6a84fe,github commit,2018-07-09T16:05:42Z,https://api.github.com/repos/opennetworkinglab/onos/commits/10e606aab45365b15f2533e0e92d5047ac6a84fe,ok,GitHub commit URL has no created_at; used commit committer date,commit_committer_date
+13,CVE-2018-11765,"Revert ""HADOOP-13707. If kerberos is enabled while HTTP SPNEGO is not configured, some links cannot be accessed. Contributed by Yuanbo Liu""
+
+Change-Id: I946a466a43d56c73bb0135384e73cb8513595461
+(cherry picked from commit 80ee5248b2dda1cb8d122d4f362f2f8cf02b9467)
+(cherry picked from commit 252c2b4d52e0dd8984d6f2a8f292f40e1c347fab)
+(cherry picked from commit 78f103d6e623692d00060e554dead5473b18d4ca)",,contains links,https://github.com/apache/hadoop/commit/94b0df839d36cf5d5e927b3642566c67d0689474,apache/hadoop,https://github.com/apache/hadoop/commit/94b0df839d36cf5d5e927b3642566c67d0689474,200,,https://issues.apache.org/jira/browse/HADOOP-13707; https://github.com/apache/hadoop/commit/80ee5248b2dda1cb8d122d4f362f2f8cf02b9467; https://github.com/apache/hadoop/commit/252c2b4d52e0dd8984d6f2a8f292f40e1c347fab; https://github.com/apache/hadoop/commit/78f103d6e623692d00060e554dead5473b18d4ca; https://github.com/apache/hadoop/commit/3b922cdb04e27e09c1b4843edafc896ee916d5e6,https://issues.apache.org/jira/browse/HADOOP-13707,apache issue tracker,successful,,https://issues.apache.org/jira/browse/HADOOP-13707,jira issue tracker,https://issues.apache.org/jira/browse/HADOOP-13707,jira issue tracker,2016-10-11T10:05:00Z,https://issues.apache.org/jira/browse/HADOOP-13707,ok,parsed from Jira HTML fallback,created_at
+14,CVE-2018-11039,"Restrict HTTP methods on Servlet HiddenHttpMethodFilter
+
+This commit restricts the allowed HTTP methods on HiddenHttpMethodFilter
+(Servlet variant) to the following: PUT, DELETE, PATCH.
+
+This filter is meant to be used to simulate those methods from HTML
+forms sent by browsers, so no other methods are allowed.
+
+Issue: SPR-16836
+(Cherry-picked from f64fa3dea1)",,contains links,https://github.com/spring-projects/spring-framework/commit/323ccf99e575343f63d56e229c25c35c170b7ec1,spring-projects/spring-framework,https://github.com/spring-projects/spring-framework/commit/323ccf99e575343f63d56e229c25c35c170b7ec1,200,,https://github.com/spring-projects/spring-framework/commit/f64fa3dea10af125d612d3a997aece93d21bc875; https://github.com/spring-projects/spring-framework/commit/437eca0b253bc06d1596e4d5385845d3b72e9fda,https://github.com/spring-projects/spring-framework/commit/f64fa3dea10af125d612d3a997aece93d21bc875,github commit,successful,,https://github.com/spring-projects/spring-framework/commit/f64fa3dea10af125d612d3a997aece93d21bc875,github commit,https://github.com/spring-projects/spring-framework/commit/f64fa3dea10af125d612d3a997aece93d21bc875,github commit,2018-06-11T16:53:23Z,https://api.github.com/repos/spring-projects/spring-framework/commits/f64fa3dea10af125d612d3a997aece93d21bc875,ok,GitHub commit URL has no created_at; used commit committer date,commit_committer_date
+15,CVE-2017-4995,"Update SecurityJackson2Modules
+
+Fixes gh-4370",,contains links,https://github.com/spring-projects/spring-security/commit/947d11f433b78294942cb5ea56e8aa5c3a0ca43;https://github.com/spring-projects/spring-security/commit/5dee8534cd1b92952d10cc56335b5d5856f48f3b,spring-projects/spring-security,https://github.com/spring-projects/spring-security/commit/947d11f433b78294942cb5ea56e8aa5c3a0ca43,200,,https://github.com/spring-projects/spring-security/issues/4370; https://github.com/spring-projects/spring-security/commit/b3a60a83f60aa1230fda9d25bc8ecc555f636bd6,https://github.com/spring-projects/spring-security/issues/4370,github issue,successful,,https://github.com/spring-projects/spring-security/issues/4370,github issue,https://github.com/spring-projects/spring-security/issues/4370,github issue,2017-06-06T15:18:33Z,https://api.github.com/repos/spring-projects/spring-security/issues/4370,ok,,created_at
+16,CVE-2016-5007,"Add MvcRequestMatcher
+
+Fixes gh-3964",,contains links,https://github.com/spring-projects/spring-security/commit/e4c13e,spring-projects/spring-security,https://github.com/spring-projects/spring-security/commit/e4c13e,200,,https://github.com/spring-projects/spring-security/issues/3964; https://github.com/spring-projects/spring-security/commit/13bc70f693e1b5c6c44d0da5ee46b9e5634ed293,https://github.com/spring-projects/spring-security/issues/3964,github issue,successful,,https://github.com/spring-projects/spring-security/issues/3964,github issue,https://github.com/spring-projects/spring-security/issues/3964,github issue,2016-07-06T20:46:57Z,https://api.github.com/repos/spring-projects/spring-security/issues/3964,ok,,created_at
+17,CVE-2016-6805,IGNITE-4537 - Filter possible sensitive user data that might be set in system properties to send in update notifier.,,contains links,https://github.com/apache/ignite/commit/9c401b0dcfc6edb5cc83f6b35bc0d24db6f10347,apache/ignite,https://github.com/apache/ignite/commit/9c401b0dcfc6edb5cc83f6b35bc0d24db6f10347,200,,https://issues.apache.org/jira/browse/IGNITE-4537; https://github.com/apache/ignite/commit/607f4eb7cea1e7392fac584772b3b86851eaf57c,https://issues.apache.org/jira/browse/IGNITE-4537,apache issue tracker,successful,,https://issues.apache.org/jira/browse/IGNITE-4537,jira issue tracker,https://issues.apache.org/jira/browse/IGNITE-4537,jira issue tracker,2017-01-11T02:16:00Z,https://issues.apache.org/jira/browse/IGNITE-4537,ok,parsed from Jira HTML fallback,created_at
+18,CVE-2018-1259,"DATACMNS-1292 - Improved default setup of XMLBeam.
+
+We now explicitly disable entity expansion in the DocumentBuilderFactory used by XMLBeam.
+
+Introduced constructor in XmlBeamHttpMessageConverter to allow dedicated configuration of an XBProjector instance in case the defaults need tweaking and augmented the web configuration setup to automatically pick up a custom XmlBeamHttpMessageConverter bean instead of our own default if present.",,contains links,https://github.com/spring-projects/spring-data-commons/commit/11d0aa1b396d8819a5a0d4933c5cfc72fe9ad102,spring-projects/spring-data-commons,https://github.com/spring-projects/spring-data-commons/commit/11d0aa1b396d8819a5a0d4933c5cfc72fe9ad102,200,,https://jira.spring.io/browse/DATACMNS-1292; https://github.com/spring-projects/spring-data-commons/commit/73415d059399198124dc3f614903c9cf38c90142,https://jira.spring.io/browse/DATACMNS-1292,jira issue tracker,successful,,https://jira.spring.io/browse/DATACMNS-1292,jira issue tracker,https://jira.spring.io/browse/DATACMNS-1292,jira issue tracker,,https://jira.spring.io/browse/DATACMNS-1292,not_available,,
+19,CVE-2017-7561,[RESTEASY-1704] CVE-2017-7561 resteasy: Vary header not added by CORS filter leading to cache poisoning,,contains links,https://github.com/resteasy/Resteasy/commit/fd66aad3cb1e8553323a9af5b58f1ad5150dc5b9,resteasy/Resteasy,https://github.com/resteasy/Resteasy/commit/fd66aad3cb1e8553323a9af5b58f1ad5150dc5b9,200,,https://github.com/advisories/GHSA-57q5-x8jf-g7h8; https://github.com/resteasy/resteasy/commit/38dcb6a98fae241e0ec7ee4ad1392743e009926d,https://github.com/advisories/GHSA-57q5-x8jf-g7h8,github advisory,successful,,https://github.com/advisories/GHSA-57q5-x8jf-g7h8,github advisory,https://github.com/advisories/GHSA-57q5-x8jf-g7h8,github advisory,2022-05-13T01:47:01Z,https://api.github.com/advisories/GHSA-57q5-x8jf-g7h8,ok,GitHub advisory API exposes published_at; used as advisory availability date,published_at
+20,CVE-2017-5656,Backporting fix for CVE-2017-5656,,contains links,https://github.com/apache/cxf/commit/f25f4a51bf0de5255414c233f41ccc35cf00a073;https://github.com/apache/cxf/commit/66c2c5b9,apache/cxf,https://github.com/apache/cxf/commit/f25f4a51bf0de5255414c233f41ccc35cf00a073,200,,https://github.com/advisories/GHSA-v936-x3j5-c76j; https://github.com/apache/cxf/commit/72c4194a634a40265171b4288927f35dc329c552,https://github.com/advisories/GHSA-v936-x3j5-c76j,github advisory,successful,,https://github.com/advisories/GHSA-v936-x3j5-c76j,github advisory,https://github.com/advisories/GHSA-v936-x3j5-c76j,github advisory,2022-05-13T01:09:19Z,https://api.github.com/advisories/GHSA-v936-x3j5-c76j,ok,GitHub advisory API exposes published_at; used as advisory availability date,published_at
+21,CVE-2022-23913,"ARTEMIS-3593 Defense against OME on parsing XID
+
+Co-authored-by: Viktor Kolomeyko <Viktor.Kolomeyko@r3.com>",,contains links,https://github.com/apache/activemq-artemis/commit/72a4fff1673477d78a85c415d48a2c74afda81fa,apache/activemq-artemis,https://github.com/apache/activemq-artemis/commit/72a4fff1673477d78a85c415d48a2c74afda81fa,200,,https://issues.apache.org/jira/browse/ARTEMIS-3593; https://github.com/apache/artemis/commit/4196faf7ce56cb3676d46acb3b0684b5cdf804d7,https://issues.apache.org/jira/browse/ARTEMIS-3593,apache issue tracker,successful,,https://issues.apache.org/jira/browse/ARTEMIS-3593,jira issue tracker,https://issues.apache.org/jira/browse/ARTEMIS-3593,jira issue tracker,2021-11-30T10:05:00Z,https://issues.apache.org/jira/browse/ARTEMIS-3593,ok,parsed from Jira HTML fallback,created_at
+22,CVE-2019-12400,not found,,contains links,https://github.com/apache/santuario-java/commit/c5210f77a77105fba81311d16c07ceacc21f39d5,apache/santuario-java,https://github.com/apache/santuario-java/commit/c5210f77a77105fba81311d16c07ceacc21f39d5,200,,https://svn.apache.org/repos/asf/santuario/xml-security-java/branches/2.1.x-fixes@1862081; https://github.com/apache/santuario-java/commit/1a0f8cbf449b73e1549149b8b173aa5c1c315eed,https://svn.apache.org/repos/asf/santuario/xml-security-java/branches/2.1.x-fixes@1862081,source/tracker link,successful,,https://svn.apache.org/repos/asf/santuario/xml-security-java/branches/2.1.x-fixes@1862081,svn/source link,https://svn.apache.org/repos/asf/santuario/xml-security-java/branches/2.1.x-fixes@1862081,svn/source link,,https://svn.apache.org/repos/asf/santuario/xml-security-java/branches/2.1.x-fixes@1862081,not_available,"SVN revision date not found for r1862081; last error: <!DOCTYPE HTML PUBLIC ""-//IETF//DTD HTML 2.0//EN"">
+<html><head>
+<title>401 Unauthorized</title>
+</head><body>
+<h1>Unauthorized</h1>
+<p>This server could not verify that you
+are authorized to access the document
+requested.  Either you supplied the wrong
+credentials (e.g., bad password), or your
+browser doesn't understand how to supply
+the credentials required.</p>
+</body></html>
+ (401) for https://svn.apache.org/repos/asf/santuario/xml-security-java/branches/2.1.x-fixes@1862081",
+23,CVE-2011-4343,MYFACES-3405 includeViewParameters re-evaluates param/model values as EL expressions [CVE-2011-4343],,contains links,https://github.com/apache/myfaces/commit/a74b551b2ce6e88101ff453389a761f230e428a1,apache/myfaces,https://github.com/apache/myfaces/commit/a74b551b2ce6e88101ff453389a761f230e428a1,200,,https://github.com/advisories/GHSA-jq6g-p65r-44xr; https://issues.apache.org/jira/browse/MYFACES-3405; https://github.com/apache/myfaces/commit/f2ca6e3d9d368aa262dedd9ff91501f8429b5f8a,https://github.com/advisories/GHSA-jq6g-p65r-44xr,github advisory,successful,,https://github.com/advisories/GHSA-jq6g-p65r-44xr,github advisory,https://github.com/advisories/GHSA-jq6g-p65r-44xr,github advisory,2022-05-17T00:29:01Z,https://api.github.com/advisories/GHSA-jq6g-p65r-44xr,ok,GitHub advisory API exposes published_at; used as advisory availability date,published_at
+24,CVE-2018-18928,"ICU-20246 Fixing another integer overflow in number parsing.
+
+(cherry picked from commit 53d8c8f3d181d87a6aa925b449b51c4a2c922a51)",,contains links,https://github.com/unicode-org/icu/commit/6cbd62e59e30f73b444be89ea71fd74275ac53a4,unicode-org/icu,https://github.com/unicode-org/icu/commit/6cbd62e59e30f73b444be89ea71fd74275ac53a4,200,,https://github.com/unicode-org/icu/commit/53d8c8f3d181d87a6aa925b449b51c4a2c922a51; https://github.com/unicode-org/icu/commit/2094a48c20193d8ecee70dc39a18f61bfda41f25,https://github.com/unicode-org/icu/commit/53d8c8f3d181d87a6aa925b449b51c4a2c922a51,github commit,successful,,https://github.com/unicode-org/icu/commit/53d8c8f3d181d87a6aa925b449b51c4a2c922a51,github commit,https://github.com/unicode-org/icu/commit/53d8c8f3d181d87a6aa925b449b51c4a2c922a51,github commit,2018-10-31T20:37:09Z,https://api.github.com/repos/unicode-org/icu/commits/53d8c8f3d181d87a6aa925b449b51c4a2c922a51,ok,GitHub commit URL has no created_at; used commit committer date,commit_committer_date
+25,CVE-2018-1260,"DefaultOAuth2RequestAuthenticator resolves Bearer syntax
+
+Fixes gh-1346",,contains links,https://github.com/spring-projects/spring-security-oauth/commit/70e5ba84ca98b7ab42c1900bdd9fa51b393d611f,spring-projects/spring-security-oauth,https://github.com/spring-projects/spring-security-oauth/commit/70e5ba84ca98b7ab42c1900bdd9fa51b393d611f,200,,https://github.com/spring-attic/spring-security-oauth/issues/1346; https://github.com/spring-attic/spring-security-oauth/commit/f9414d549b5341bcac1475e0b5527511444640dc,https://github.com/spring-attic/spring-security-oauth/issues/1346,github issue,successful,,https://github.com/spring-attic/spring-security-oauth/issues/1346,github issue,https://github.com/spring-attic/spring-security-oauth/issues/1346,github issue,2018-04-26T13:38:19Z,https://api.github.com/repos/spring-attic/spring-security-oauth/issues/1346,ok,,created_at
+26,CVE-2018-11764,"Revert ""HADOOP-13119. Add ability to secure log servlet using proxy users.  Contribute by Yuanbo Liu.""
+
+This reverts commit a847903b6e64c6edb11d852b91f2c816b1253eb3.
+
+Change-Id: I3122a2142f5bdf8507dece930e447556a43cd9ae
+(cherry picked from commit 8fad3ec76070ccfcd3ed80feaba4355077bc6f5c)
+
+Conflicts:
+	hadoop-common-project/hadoop-common/src/test/java/org/apache/hadoop/http/TestHttpServerWithSpengo.java",,contains links,https://github.com/apache/hadoop/commit/493924def8f184e74d57153afc9c22b0eeb95e9c,apache/hadoop,https://github.com/apache/hadoop/commit/493924def8f184e74d57153afc9c22b0eeb95e9c,200,,https://issues.apache.org/jira/browse/HADOOP-13119; https://github.com/apache/hadoop/commit/a847903b6e64c6edb11d852b91f2c816b1253eb3; https://github.com/apache/hadoop/commit/8fad3ec76070ccfcd3ed80feaba4355077bc6f5c; https://github.com/apache/hadoop/commit/f49b044cbf08e797b25c6e0c8e6ede98e904773a,https://issues.apache.org/jira/browse/HADOOP-13119,apache issue tracker,successful,,https://issues.apache.org/jira/browse/HADOOP-13119,jira issue tracker,https://issues.apache.org/jira/browse/HADOOP-13119,jira issue tracker,2016-05-08T18:15:00Z,https://issues.apache.org/jira/browse/HADOOP-13119,ok,parsed from Jira HTML fallback,created_at
+27,CVE-2016-8751,"RANGER-1229: fix resource-matcher to correctly handle policy containing only one resource whose value is '*'
+
+Signed-off-by: Madhan Neethiraj <madhan@apache.org>",,contains links,https://github.com/apache/ranger/commit/2fcd7f7cc175c0734443638b99c359e24c0f88ff,apache/ranger,https://github.com/apache/ranger/commit/2fcd7f7cc175c0734443638b99c359e24c0f88ff,200,,https://issues.apache.org/jira/browse/RANGER-1229; https://github.com/apache/ranger/commit/ffbb138d1809d5c800a7f916c05ab5cd2a1581a6,https://issues.apache.org/jira/browse/RANGER-1229,apache issue tracker,successful,,https://issues.apache.org/jira/browse/RANGER-1229,jira issue tracker,https://issues.apache.org/jira/browse/RANGER-1229,jira issue tracker,2016-11-24T05:20:00Z,https://issues.apache.org/jira/browse/RANGER-1229,ok,parsed from Jira HTML fallback,created_at
+28,CVE-2017-12620,OPENNLP-1124: Optimize XML parser configuration,,contains links,https://github.com/apache/opennlp/commit/c2c14e9af7a519aacfde5173f641c86e17ce50ed,apache/opennlp,https://github.com/apache/opennlp/commit/c2c14e9af7a519aacfde5173f641c86e17ce50ed,200,,https://issues.apache.org/jira/browse/OPENNLP-1124; https://github.com/apache/opennlp/commit/52573ea7c8b2928cfdc0acf082fa0e71b8ec2c1d,https://issues.apache.org/jira/browse/OPENNLP-1124,apache issue tracker,successful,,https://issues.apache.org/jira/browse/OPENNLP-1124,jira issue tracker,https://issues.apache.org/jira/browse/OPENNLP-1124,jira issue tracker,2017-08-29T12:07:00Z,https://issues.apache.org/jira/browse/OPENNLP-1124,ok,parsed from Jira HTML fallback,created_at
+29,CVE-2019-17571,"[LOG4J2-1863] Add class filtering to AbstractSocketServer
+
+This allows a whitelist of class names to be specified to configure
+which classes are allowed to be deserialized in both TcpSocketServer and
+UdpSocketServer.",,contains links,https://github.com/apache/logging-log4j2/commit/5dcc19215827db29c993d0305ee2b0d8dd05939d,apache/logging-log4j2,https://github.com/apache/logging-log4j2/commit/5dcc19215827db29c993d0305ee2b0d8dd05939d,200,,https://issues.apache.org/jira/browse/LOG4J2-1863; https://github.com/apache/logging-log4j2/commit/5aff929bb44e63c0dbf0cdc7cfb5d5fbd50660ef,https://issues.apache.org/jira/browse/LOG4J2-1863,apache issue tracker,successful,,https://issues.apache.org/jira/browse/LOG4J2-1863,jira issue tracker,https://issues.apache.org/jira/browse/LOG4J2-1863,jira issue tracker,2017-04-02T17:41:00Z,https://issues.apache.org/jira/browse/LOG4J2-1863,ok,parsed from Jira HTML fallback,created_at
+30,CVE-2019-12406,"Restrict the number of message attachments
+
+(cherry picked from commit 6c3990144b56097502aa9f3ec9c06f3031109022)",,contains links,https://github.com/apache/cxf/commit/fd85803a73ad46f36816bcb55ed1c4f4b4c4312d,apache/cxf,https://github.com/apache/cxf/commit/fd85803a73ad46f36816bcb55ed1c4f4b4c4312d,200,,https://github.com/apache/cxf/commit/6c3990144b56097502aa9f3ec9c06f3031109022; https://github.com/apache/cxf/commit/5769cea56830cf778625b871b341b11d185773b8,https://github.com/apache/cxf/commit/6c3990144b56097502aa9f3ec9c06f3031109022,github commit,successful,,https://github.com/apache/cxf/commit/6c3990144b56097502aa9f3ec9c06f3031109022,github commit,https://github.com/apache/cxf/commit/6c3990144b56097502aa9f3ec9c06f3031109022,github commit,2019-09-03T14:45:20Z,https://api.github.com/repos/apache/cxf/commits/6c3990144b56097502aa9f3ec9c06f3031109022,ok,GitHub commit URL has no created_at; used commit committer date,commit_committer_date
+31,CVE-2019-3797,"DATAJPA-1519 - Wildcard escaping in LIKE-queries.
+
+Derived queries with `contains`, `startWith` or `endsWith` predicates now use wildcard escaping in order to avoid selecting more then requested. A function `escape(String, String)` is made available in SpEL expressions as well for the same purpose.
+
+Note that annotated queries and derived queries with LIKE conditions don't get escaped because it is not clear if the use of wildcards in the argument is intended or not. Improved reference documentation accordingly.",,contains links,https://github.com/spring-projects/spring-data-jpa/commit/4d4e6d418fe3bca14c7cff1c7161e3794026f960,spring-projects/spring-data-jpa,https://github.com/spring-projects/spring-data-jpa/commit/4d4e6d418fe3bca14c7cff1c7161e3794026f960,200,,https://jira.spring.io/browse/DATAJPA-1519; https://github.com/spring-projects/spring-data-jpa/commit/7b189b8bc7cf44df3624c23f95384adec3d644aa,https://jira.spring.io/browse/DATAJPA-1519,jira issue tracker,successful,,https://jira.spring.io/browse/DATAJPA-1519,jira issue tracker,https://jira.spring.io/browse/DATAJPA-1519,jira issue tracker,,https://jira.spring.io/browse/DATAJPA-1519,not_available,,
+32,CVE-2016-2175,not found,,contains links,https://github.com/apache/pdfbox/commit/6f4a1fa0cd894ba3bbbe4a97ce11e23ec64f0d3a,apache/pdfbox,https://github.com/apache/pdfbox/commit/6f4a1fa0cd894ba3bbbe4a97ce11e23ec64f0d3a,200,,https://svn.apache.org/repos/asf/pdfbox/branches/1.8@1739564; https://github.com/apache/pdfbox/commit/7c9e799d145c2fb8096a6842a854e731ef262b92,https://svn.apache.org/repos/asf/pdfbox/branches/1.8@1739564,source/tracker link,successful,,https://svn.apache.org/repos/asf/pdfbox/branches/1.8@1739564,svn/source link,https://svn.apache.org/repos/asf/pdfbox/branches/1.8@1739564,svn/source link,,https://svn.apache.org/repos/asf/pdfbox/branches/1.8@1739564,not_available,"SVN revision date not found for r1739564; last error: <!DOCTYPE HTML PUBLIC ""-//IETF//DTD HTML 2.0//EN"">
+<html><head>
+<title>401 Unauthorized</title>
+</head><body>
+<h1>Unauthorized</h1>
+<p>This server could not verify that you
+are authorized to access the document
+requested.  Either you supplied the wrong
+credentials (e.g., bad password), or your
+browser doesn't understand how to supply
+the credentials required.</p>
+</body></html>
+ (401) for https://svn.apache.org/repos/asf/pdfbox/branches/1.8@1739564",
+33,CVE-2020-35210,not found,,contains links,https://github.com/atomix/atomix/commit/c9edd1b78d756f9ad25452daf0193d33ad539394,atomix/atomix,https://github.com/atomix/atomix/commit/c9edd1b78d756f9ad25452daf0193d33ad539394,200,,https://github.com/atomix/atomix/pull/1051; https://github.com/atomix/atomix/commit/96463b44376f486289d075dc4d7e09a6f76d454d,https://github.com/atomix/atomix/pull/1051,github pull request,successful,,https://github.com/atomix/atomix/pull/1051,github pull request,https://github.com/atomix/atomix/pull/1051,github pull request,2019-08-22T09:02:37Z,https://api.github.com/repos/atomix/atomix/issues/1051,ok,,created_at
+34,CVE-2017-9803,"Create znode upfront and fix chroot handling in delegation token feature
+
+(cherry picked from commit 065edbc)",,contains links,https://github.com/apache/lucene-solr/commit/4704efb1f92588ad106a39dea5f20bf8e80b133b;https://github.com/apache/lucene-solr/commit/b091934f9e98568b848d0584a1145c8e514cbd21,apache/lucene-solr,https://github.com/apache/lucene-solr/commit/4704efb1f92588ad106a39dea5f20bf8e80b133b,200,,https://github.com/apache/lucene-solr/commit/065edbc53d5eae84d2417804e61e18428199ca2c; https://github.com/apache/lucene-solr/commit/927d10660f875f96465417698f28aecec8a7b948,https://github.com/apache/lucene-solr/commit/065edbc53d5eae84d2417804e61e18428199ca2c,github commit,successful,,https://github.com/apache/lucene-solr/commit/065edbc53d5eae84d2417804e61e18428199ca2c,github commit,https://github.com/apache/lucene-solr/commit/065edbc53d5eae84d2417804e61e18428199ca2c,github commit,2017-08-16T13:20:20Z,https://api.github.com/repos/apache/lucene-solr/commits/065edbc53d5eae84d2417804e61e18428199ca2c,ok,GitHub commit URL has no created_at; used commit committer date,commit_committer_date
+35,CVE-2021-22112,"Optimize HttpSessionSecurityContextRepository
+
+Closes gh-9387",,contains links,https://github.com/spring-projects/spring-security/commit/c72a6fac04853912a4b7caad5f0500f2aace5a79,spring-projects/spring-security,https://github.com/spring-projects/spring-security/commit/c72a6fac04853912a4b7caad5f0500f2aace5a79,200,,https://github.com/spring-projects/spring-security/issues/9387; https://github.com/spring-projects/spring-security/commit/357446ba9de9c4e4c531af5d14c46342471d2dd8,https://github.com/spring-projects/spring-security/issues/9387,github issue,successful,,https://github.com/spring-projects/spring-security/issues/9387,github issue,https://github.com/spring-projects/spring-security/issues/9387,github issue,2021-01-28T22:36:32Z,https://api.github.com/repos/spring-projects/spring-security/issues/9387,ok,,created_at
+36,CVE-2017-3166,"Treat encrypted files as private. Contributed by Daniel Templeton.
+
+(cherry picked from commit f01a69f84f4cc7d925d078a7ce32e5800da4e429)
+(cherry picked from commit 120f680318d766f44787fd0eec88270d61172523)",,contains links,https://github.com/apache/hadoop/commit/a47d8283b136aab5b9fa4c18e6f51fa799d91a29,apache/hadoop,https://github.com/apache/hadoop/commit/a47d8283b136aab5b9fa4c18e6f51fa799d91a29,200,,https://github.com/apache/hadoop/commit/f01a69f84f4cc7d925d078a7ce32e5800da4e429; https://github.com/apache/hadoop/commit/120f680318d766f44787fd0eec88270d61172523; https://github.com/apache/hadoop/commit/39b483e065629eb5b84607ab68489de65cd3d8b1,https://github.com/apache/hadoop/commit/f01a69f84f4cc7d925d078a7ce32e5800da4e429,github commit,successful,,https://github.com/apache/hadoop/commit/f01a69f84f4cc7d925d078a7ce32e5800da4e429,github commit,https://github.com/apache/hadoop/commit/f01a69f84f4cc7d925d078a7ce32e5800da4e429,github commit,2017-03-07T04:22:11Z,https://api.github.com/repos/apache/hadoop/commits/f01a69f84f4cc7d925d078a7ce32e5800da4e429,ok,GitHub commit URL has no created_at; used commit committer date,commit_committer_date
+37,CVE-2017-5643,CAMEL-10894: Improve test fix,,contains links,https://github.com/apache/camel/commit/ec3d0db81ba061b27e934d5ff56e9baca0049eb;https://github.com/apache/camel/commit/8afc5d1757795fde715902067360af5d90f046d,apache/camel,https://github.com/apache/camel/commit/ec3d0db81ba061b27e934d5ff56e9baca0049eb,200,,https://issues.apache.org/jira/browse/CAMEL-10894; https://github.com/apache/camel/commit/87c92b7b38890c217bc76f2c55036e6a5cca9a07,https://issues.apache.org/jira/browse/CAMEL-10894,apache issue tracker,successful,,https://issues.apache.org/jira/browse/CAMEL-10894,jira issue tracker,https://issues.apache.org/jira/browse/CAMEL-10894,jira issue tracker,2017-02-24T11:05:00Z,https://issues.apache.org/jira/browse/CAMEL-10894,ok,parsed from Jira HTML fallback,created_at
+38,CVE-2016-8746,"RANGER-1261: fix path matching inconsistencies and wildcard treatment
+
+Signed-off-by: Madhan Neethiraj <madhan@apache.org>
+(cherry picked from commit 22029847559b3881cdc3176b15e545e847ef6d7c)",,contains links,https://github.com/apache/ranger/commit/9dfde6de92799d7d923cf8eb11bbdc8788d6664c,apache/ranger,https://github.com/apache/ranger/commit/9dfde6de92799d7d923cf8eb11bbdc8788d6664c,200,,https://issues.apache.org/jira/browse/RANGER-1261; https://github.com/apache/ranger/commit/22029847559b3881cdc3176b15e545e847ef6d7c; https://github.com/apache/ranger/commit/76867e570f23bd542d47a8cc0c27a8c51e41e7c9,https://issues.apache.org/jira/browse/RANGER-1261,apache issue tracker,successful,,https://issues.apache.org/jira/browse/RANGER-1261,jira issue tracker,https://issues.apache.org/jira/browse/RANGER-1261,jira issue tracker,2016-12-16T05:13:00Z,https://issues.apache.org/jira/browse/RANGER-1261,ok,parsed from Jira HTML fallback,created_at
+39,CVE-2017-5644,not found,,contains links,https://github.com/apache/poi/commit/3a328aa220f6979f9805f658ae33244d153beaa7,apache/poi,https://github.com/apache/poi/commit/3a328aa220f6979f9805f658ae33244d153beaa7,200,,https://svn.apache.org/repos/asf/poi/trunk@1734182; https://github.com/apache/poi/commit/e444b4b01afbacf37537257b9ba8dabe0fea6691,https://svn.apache.org/repos/asf/poi/trunk@1734182,source/tracker link,successful,,https://svn.apache.org/repos/asf/poi/trunk@1734182,svn/source link,https://svn.apache.org/repos/asf/poi/trunk@1734182,svn/source link,,https://svn.apache.org/repos/asf/poi/trunk@1734182,not_available,"SVN revision date not found for r1734182; last error: <!DOCTYPE HTML PUBLIC ""-//IETF//DTD HTML 2.0//EN"">
+<html><head>
+<title>401 Unauthorized</title>
+</head><body>
+<h1>Unauthorized</h1>
+<p>This server could not verify that you
+are authorized to access the document
+requested.  Either you supplied the wrong
+credentials (e.g., bad password), or your
+browser doesn't understand how to supply
+the credentials required.</p>
+</body></html>
+ (401) for https://svn.apache.org/repos/asf/poi/trunk@1734182",
+40,CVE-2017-15700,SLING-7243 - Improve validation in AuthUtil.isRedirectValid,,contains links,https://github.com/apache/sling-org-apache-sling-auth-core/commit/015fe58b22e0625e9d88b687de50303db539482b,apache/sling-org-apache-sling-auth-core,https://github.com/apache/sling-org-apache-sling-auth-core/commit/015fe58b22e0625e9d88b687de50303db539482b,200,,https://issues.apache.org/jira/browse/SLING-7243; https://github.com/apache/sling-org-apache-sling-auth-core/commit/3baadde1c9f554b013f409cd22bb746024c8ea54,https://issues.apache.org/jira/browse/SLING-7243,apache issue tracker,successful,,https://issues.apache.org/jira/browse/SLING-7243,jira issue tracker,https://issues.apache.org/jira/browse/SLING-7243,jira issue tracker,2017-11-15T13:57:00Z,https://issues.apache.org/jira/browse/SLING-7243,ok,parsed from Jira HTML fallback,created_at
+41,CVE-2016-9879,"Block URL Encoded ""/"" in DefaultHttpFirewall
+
+Fixes gh-4169",,contains links,https://github.com/spring-projects/spring-security/commit/666e356ebc479194ba51e43bb99fc42f849b6175;https://github.com/spring-projects/spring-security/commit/ed2ae21074b7850d386371b2ab9e29268ef2f0c0,spring-projects/spring-security,https://github.com/spring-projects/spring-security/commit/666e356ebc479194ba51e43bb99fc42f849b6175,200,,https://github.com/spring-projects/spring-security/issues/4169; https://github.com/spring-projects/spring-security/commit/fc516b55a647277f58d679b8040fe5a15711338b,https://github.com/spring-projects/spring-security/issues/4169,github issue,successful,,https://github.com/spring-projects/spring-security/issues/4169,github issue,https://github.com/spring-projects/spring-security/issues/4169,github issue,2016-12-21T14:55:50Z,https://api.github.com/repos/spring-projects/spring-security/issues/4169,ok,,created_at
+42,CVE-2019-0187,not found,,contains links,https://github.com/apache/jmeter/commit/a82907030db158e00d681dc5f5330085951535f3,apache/jmeter,https://github.com/apache/jmeter/commit/a82907030db158e00d681dc5f5330085951535f3,200,,https://svn.apache.org/repos/asf/jmeter/trunk@1841383; https://github.com/apache/jmeter/commit/de1dd73ab510e9528f15b8a7b9f28153100f11a3,https://svn.apache.org/repos/asf/jmeter/trunk@1841383,source/tracker link,successful,,https://svn.apache.org/repos/asf/jmeter/trunk@1841383,svn/source link,https://svn.apache.org/repos/asf/jmeter/trunk@1841383,svn/source link,,https://svn.apache.org/repos/asf/jmeter/trunk@1841383,not_available,"SVN revision date not found for r1841383; last error: <!DOCTYPE HTML PUBLIC ""-//IETF//DTD HTML 2.0//EN"">
+<html><head>
+<title>401 Unauthorized</title>
+</head><body>
+<h1>Unauthorized</h1>
+<p>This server could not verify that you
+are authorized to access the document
+requested.  Either you supplied the wrong
+credentials (e.g., bad password), or your
+browser doesn't understand how to supply
+the credentials required.</p>
+</body></html>
+ (401) for https://svn.apache.org/repos/asf/jmeter/trunk@1841383",
+43,CVE-2020-5408,"BCryptPasswordEncoder rawPassword cannot be null
+
+Closes gh-8317",,contains links,https://github.com/spring-projects/spring-security/commit/3c81e122bdfcd0803fb6331a8625624cae249231,spring-projects/spring-security,https://github.com/spring-projects/spring-security/commit/3c81e122bdfcd0803fb6331a8625624cae249231,200,,https://github.com/spring-projects/spring-security/issues/8317; https://github.com/spring-projects/spring-security/commit/929a5de1637e39cf94329f13773d7195ed9e731a,https://github.com/spring-projects/spring-security/issues/8317,github issue,successful,,https://github.com/spring-projects/spring-security/issues/8317,github issue,https://github.com/spring-projects/spring-security/issues/8317,github issue,2020-04-02T22:08:43Z,https://api.github.com/repos/spring-projects/spring-security/issues/8317,ok,,created_at
+44,CVE-2016-4993,UNDERTOW-827 WFLY-6760 CVE-2016-4993 wildfly: HTTP header injection / response splitting,,contains links,https://github.com/undertow-io/undertow/commit/5d017ce12d075679822104e8a8a3b1ad98abad86,undertow-io/undertow,https://github.com/undertow-io/undertow/commit/5d017ce12d075679822104e8a8a3b1ad98abad86,200,,https://github.com/advisories/GHSA-qcqr-hcjq-whfq; https://github.com/undertow-io/undertow/commit/f52c0d6fd0cd9859642b743968b0aa75f77d8637,https://github.com/advisories/GHSA-qcqr-hcjq-whfq,github advisory,successful,,https://github.com/advisories/GHSA-qcqr-hcjq-whfq,github advisory,https://github.com/advisories/GHSA-qcqr-hcjq-whfq,github advisory,2022-05-17T00:15:12Z,https://api.github.com/advisories/GHSA-qcqr-hcjq-whfq,ok,GitHub advisory API exposes published_at; used as advisory availability date,published_at
+45,CVE-2019-17573,"Make sure to escape URLs returned in the services listing
+
+(cherry picked from commit 4ca5f7b92175edab46d1f1ea4e829a3ac4e9c7f2)",,contains links,https://github.com/apache/cxf/commit/a02e96ba1095596bef481919f16a90c5e80a92c8,apache/cxf,https://github.com/apache/cxf/commit/a02e96ba1095596bef481919f16a90c5e80a92c8,200,,https://github.com/apache/cxf/commit/4ca5f7b92175edab46d1f1ea4e829a3ac4e9c7f2; https://github.com/apache/cxf/commit/68dfb2274f5d3a580fc60c37eb9e177772284347,https://github.com/apache/cxf/commit/4ca5f7b92175edab46d1f1ea4e829a3ac4e9c7f2,github commit,successful,,https://github.com/apache/cxf/commit/4ca5f7b92175edab46d1f1ea4e829a3ac4e9c7f2,github commit,https://github.com/apache/cxf/commit/4ca5f7b92175edab46d1f1ea4e829a3ac4e9c7f2,github commit,2020-01-06T18:08:52Z,https://api.github.com/repos/apache/cxf/commits/4ca5f7b92175edab46d1f1ea4e829a3ac4e9c7f2,ok,GitHub commit URL has no created_at; used commit committer date,commit_committer_date
+46,CVE-2018-8030,"QPID-8203: [Broker-J][AMQP 0-9] Fix maximum message size check
+
+(cherry picked from commit 025b48f3193e2b10b1c41d2bc3bcfc9cfc238a27)",,contains links,https://github.com/apache/qpid-broker-j/commit/881323e56620ea069d52885842652a6fbf3403c0,apache/qpid-broker-j,https://github.com/apache/qpid-broker-j/commit/881323e56620ea069d52885842652a6fbf3403c0,200,,https://github.com/apache/qpid-broker-j/commit/025b48f3193e2b10b1c41d2bc3bcfc9cfc238a27; https://github.com/apache/qpid-broker-j/commit/6c875d53f23ae2f15402f0688790f96262914e90,https://github.com/apache/qpid-broker-j/commit/025b48f3193e2b10b1c41d2bc3bcfc9cfc238a27,github commit,successful,,https://github.com/apache/qpid-broker-j/commit/025b48f3193e2b10b1c41d2bc3bcfc9cfc238a27,github commit,https://github.com/apache/qpid-broker-j/commit/025b48f3193e2b10b1c41d2bc3bcfc9cfc238a27,github commit,2018-06-05T22:59:19Z,https://api.github.com/repos/apache/qpid-broker-j/commits/025b48f3193e2b10b1c41d2bc3bcfc9cfc238a27,ok,GitHub commit URL has no created_at; used commit committer date,commit_committer_date
+47,CVE-2021-26117,ARTEMIS-2895 - ensure propagated credentials are visible for bind and removed for subsequent mapping operations,,contains links,https://github.com/apache/activemq-artemis/commit/ec1c5a96c74b24f2c9a6f0919a1a180721c5c6b9,apache/activemq-artemis,https://github.com/apache/activemq-artemis/commit/ec1c5a96c74b24f2c9a6f0919a1a180721c5c6b9,200,,https://issues.apache.org/jira/browse/ARTEMIS-2895; https://github.com/apache/artemis/commit/77bbf49a4f1a5c399313e3246b1fd18f5e8a3b54,https://issues.apache.org/jira/browse/ARTEMIS-2895,apache issue tracker,successful,,https://issues.apache.org/jira/browse/ARTEMIS-2895,jira issue tracker,https://issues.apache.org/jira/browse/ARTEMIS-2895,jira issue tracker,2020-09-07T15:16:00Z,https://issues.apache.org/jira/browse/ARTEMIS-2895,ok,parsed from Jira HTML fallback,created_at
+48,CVE-2020-5398,"Escape quotes in filename
+
+Also sync up to master and 5.1.x on refactorings in ContentDisposition
+and ContentDispositionTests.
+
+Closes gh-24230",,contains links,https://github.com/spring-projects/spring-framework/commit/0583b334b46cf2a591c72c2708ee3d2ac5d2b58c,spring-projects/spring-framework,https://github.com/spring-projects/spring-framework/commit/0583b334b46cf2a591c72c2708ee3d2ac5d2b58c,200,,https://github.com/spring-projects/spring-framework/issues/24230; https://github.com/spring-projects/spring-framework/commit/8356762316959a989903d5cd4895b214a329b2b3,https://github.com/spring-projects/spring-framework/issues/24230,github issue,successful,,https://github.com/spring-projects/spring-framework/issues/24230,github issue,https://github.com/spring-projects/spring-framework/issues/24230,github issue,2019-12-19T13:42:22Z,https://api.github.com/repos/spring-projects/spring-framework/issues/24230,ok,,created_at
+49,CVE-2016-4970,"OpenSslEngine writePlaintextData WANT_READ with no data in BIO buffer
+
+Motivation:
+CVE-2016-4970
+
+OpenSslEngine.wrap calls SSL_write which may return SSL_ERROR_WANT_READ, and if in this condition there is nothing to read from the BIO the OpenSslEngine and SslHandler will enter an infinite loop.
+
+Modifications:
+- Use the error code provided by OpenSSL and go back to the EventLoop selector to detect if the socket is closed
+
+Result:
+OpenSslEngine correctly handles the return codes from OpenSSL and does not enter an infinite loop.",,contains links,https://github.com/netty/netty/commit/9e2c400f89c5badc39919f811179d3d42ac5257c,netty/netty,https://github.com/netty/netty/commit/9e2c400f89c5badc39919f811179d3d42ac5257c,200,,https://github.com/advisories/GHSA-rv63-gqm8-9w8q; https://github.com/netty/netty/commit/a14eda7db055cbe3b32dc34370701c841879d2ae,https://github.com/advisories/GHSA-rv63-gqm8-9w8q,github advisory,successful,,https://github.com/advisories/GHSA-rv63-gqm8-9w8q,github advisory,https://github.com/advisories/GHSA-rv63-gqm8-9w8q,github advisory,2022-05-13T01:11:43Z,https://api.github.com/advisories/GHSA-rv63-gqm8-9w8q,ok,GitHub advisory API exposes published_at; used as advisory availability date,published_at
+50,CVE-2014-0003,CAMEL-7123 Enable the xml transformer security processing feature by default,,contains links,https://github.com/apache/camel/commit/c6de749e9b3c7b61861c5480e91550290585224d,apache/camel,https://github.com/apache/camel/commit/c6de749e9b3c7b61861c5480e91550290585224d,200,,https://issues.apache.org/jira/browse/CAMEL-7123; https://github.com/apache/camel/commit/f6553a640e538b60eccb9c8f0615fb95ce0f4bca,https://issues.apache.org/jira/browse/CAMEL-7123,apache issue tracker,successful,,https://issues.apache.org/jira/browse/CAMEL-7123,jira issue tracker,https://issues.apache.org/jira/browse/CAMEL-7123,jira issue tracker,2014-01-10T09:16:00Z,https://issues.apache.org/jira/browse/CAMEL-7123,ok,parsed from Jira HTML fallback,created_at
+51,CVE-2016-4003,WW-4507 - clone Tomcat UDecoder and use it for in query string handling,,contains links,https://github.com/apache/struts/commit/5421930b49822606792f36653b17d3d95ef106f9;https://github.com/apache/struts/commit/72471d7075681bea52046645ad7aa34e9c53751e,apache/struts,https://github.com/apache/struts/commit/5421930b49822606792f36653b17d3d95ef106f9,200,,https://issues.apache.org/jira/browse/WW-4507; https://github.com/apache/struts/commit/c6750c110ca07719ef2b3d706b927e3195ff01c8,https://issues.apache.org/jira/browse/WW-4507,apache issue tracker,successful,,https://issues.apache.org/jira/browse/WW-4507,jira issue tracker,https://issues.apache.org/jira/browse/WW-4507,jira issue tracker,2015-05-28T15:33:00Z,https://issues.apache.org/jira/browse/WW-4507,ok,parsed from Jira HTML fallback,created_at
+52,CVE-2020-1926,"HIVE-22708: Fix for HttpTransport to replace String.equals (Naveen Gangam, reviewed by Peter Vary)",,contains links,https://github.com/apache/hive/commit/ee5a6be81a87bb21b3779edad6e61b67b365997b,apache/hive,https://github.com/apache/hive/commit/ee5a6be81a87bb21b3779edad6e61b67b365997b,200,,https://issues.apache.org/jira/browse/HIVE-22708; https://github.com/apache/hive/commit/f47f85a982cda776eb106bd61b6929735ecc6995,https://issues.apache.org/jira/browse/HIVE-22708,apache issue tracker,successful,,https://issues.apache.org/jira/browse/HIVE-22708,jira issue tracker,https://issues.apache.org/jira/browse/HIVE-22708,jira issue tracker,2020-01-08T18:15:00Z,https://issues.apache.org/jira/browse/HIVE-22708,ok,parsed from Jira HTML fallback,created_at
+53,CVE-2019-12423,"Some updates to the OIDC JWK Keys service
+
+(cherry picked from commit 6852cd5e4927f8e651c0a0589b5ee3f61e753186)",,contains links,https://github.com/apache/cxf/commit/2de7e14eb95626fffef6f61365186de9a1c9de3d;https://github.com/apache/cxf/commit/8b40fdba289c62f4defae51c1f76860f0159c441,apache/cxf,https://github.com/apache/cxf/commit/2de7e14eb95626fffef6f61365186de9a1c9de3d,200,,https://github.com/apache/cxf/commit/6852cd5e4927f8e651c0a0589b5ee3f61e753186; https://github.com/apache/cxf/commit/fe2cb8d69afb93f29260dfabd47e37c1ce4ee440,https://github.com/apache/cxf/commit/6852cd5e4927f8e651c0a0589b5ee3f61e753186,github commit,successful,,https://github.com/apache/cxf/commit/6852cd5e4927f8e651c0a0589b5ee3f61e753186,github commit,https://github.com/apache/cxf/commit/6852cd5e4927f8e651c0a0589b5ee3f61e753186,github commit,2019-11-14T15:27:13Z,https://api.github.com/repos/apache/cxf/commits/6852cd5e4927f8e651c0a0589b5ee3f61e753186,ok,GitHub commit URL has no created_at; used commit committer date,commit_committer_date
+54,CVE-2020-1960,FLINK-16697][metrics][jmx] Disable rebinding,,contains links,https://github.com/apache/flink/commit/58b58f4b16a2e25c95b465377d43a51ad8ef3f6a,apache/flink,https://github.com/apache/flink/commit/58b58f4b16a2e25c95b465377d43a51ad8ef3f6a,200,,https://issues.apache.org/jira/browse/FLINK-16697; https://github.com/apache/flink/commit/f497a51ae226d92a4364bf7c518ace0253ba3963,https://issues.apache.org/jira/browse/FLINK-16697,apache issue tracker,successful,,https://issues.apache.org/jira/browse/FLINK-16697,jira issue tracker,https://issues.apache.org/jira/browse/FLINK-16697,jira issue tracker,2020-03-20T10:13:00Z,https://issues.apache.org/jira/browse/FLINK-16697,ok,parsed from Jira HTML fallback,created_at
+55,CVE-2020-35215,not found,,contains links,https://github.com/atomix/atomix/commit/21ff37510694371855a0f563b98b0cff93f91694,atomix/atomix,https://github.com/atomix/atomix/commit/21ff37510694371855a0f563b98b0cff93f91694,200,,https://github.com/atomix/atomix/pull/974; https://github.com/atomix/atomix/commit/92ce8ee500d6a8265c2840b9ab95e9e13ce9778d,https://github.com/atomix/atomix/pull/974,github pull request,successful,,https://github.com/atomix/atomix/pull/974,github pull request,https://github.com/atomix/atomix/pull/974,github pull request,2019-01-16T02:36:41Z,https://api.github.com/repos/atomix/atomix/issues/974,ok,,created_at
+56,CVE-2017-5662,not found,,contains links,https://github.com/apache/batik/commit/6ab669f073c23a443d78a7a08aea2fd4de10da8c;https://github.com/apache/batik/commit/998cabf7af08852e8305f60b5e4c0b6721c47667,apache/batik,https://github.com/apache/batik/commit/6ab669f073c23a443d78a7a08aea2fd4de10da8c,200,,https://svn.apache.org/repos/asf/xmlgraphics/batik/trunk@1743326; https://github.com/apache/xmlgraphics-batik/commit/998cabf7af08852e8305f60b5e4c0b6721c47667,https://svn.apache.org/repos/asf/xmlgraphics/batik/trunk@1743326,source/tracker link,successful,,https://svn.apache.org/repos/asf/xmlgraphics/batik/trunk@1743326,svn/source link,https://svn.apache.org/repos/asf/xmlgraphics/batik/trunk@1743326,svn/source link,,https://svn.apache.org/repos/asf/xmlgraphics/batik/trunk@1743326,not_available,"SVN revision date not found for r1743326; last error: <!DOCTYPE HTML PUBLIC ""-//IETF//DTD HTML 2.0//EN"">
+<html><head>
+<title>401 Unauthorized</title>
+</head><body>
+<h1>Unauthorized</h1>
+<p>This server could not verify that you
+are authorized to access the document
+requested.  Either you supplied the wrong
+credentials (e.g., bad password), or your
+browser doesn't understand how to supply
+the credentials required.</p>
+</body></html>
+ (401) for https://svn.apache.org/repos/asf/xmlgraphics/batik/trunk@1743326",
+57,CVE-2020-13920,"Fix issue where the registry lookup was a hardcoded name and didn't account for the connector path
+
+(cherry picked from commit 4522061527d683837add039b2356d1f943744833)",,contains links,https://github.com/apache/activemq/commit/5263883d37ee9df336776f8f906aebfb13189ece,apache/activemq,https://github.com/apache/activemq/commit/5263883d37ee9df336776f8f906aebfb13189ece,200,,https://github.com/apache/activemq/commit/4522061527d683837add039b2356d1f943744833; https://github.com/apache/activemq/commit/df8f7105880c3690e99960da29288ec6872aa611,https://github.com/apache/activemq/commit/4522061527d683837add039b2356d1f943744833,github commit,successful,,https://github.com/apache/activemq/commit/4522061527d683837add039b2356d1f943744833,github commit,https://github.com/apache/activemq/commit/4522061527d683837add039b2356d1f943744833,github commit,2020-02-24T11:10:46Z,https://api.github.com/repos/apache/activemq/commits/4522061527d683837add039b2356d1f943744833,ok,GitHub commit URL has no created_at; used commit committer date,commit_committer_date
+58,CVE-2016-10027,"Move TLS Required check at the end of connect()
+
+It was a *very* bad idea to perform the SecurityMode.Required check in
+the connection's reader thread and not at the end of
+AbstractXMPPConnectin's connect(). :/
+
+This behavior dates back to 8e750912a765f77a4f178a4f307a8b42c2afb5ae
+
+Fixes SMACK-739",,contains links,https://github.com/igniterealtime/Smack/commit/059ee99ba0d5ff7758829acf5a9aeede09ec820b;https://github.com/igniterealtime/Smack/commit/a9d5cd4a611f47123f9561bc5a81a4555fe7cb04,igniterealtime/Smack,https://github.com/igniterealtime/Smack/commit/059ee99ba0d5ff7758829acf5a9aeede09ec820b,200,,https://github.com/igniterealtime/Smack/commit/8e750912a765f77a4f178a4f307a8b42c2afb5ae; https://github.com/igniterealtime/Smack/commit/fca2f59e08da2936f6d899a95fb0f6ed9aa07f0c,https://github.com/igniterealtime/Smack/commit/8e750912a765f77a4f178a4f307a8b42c2afb5ae,github commit,successful,,https://github.com/igniterealtime/Smack/commit/8e750912a765f77a4f178a4f307a8b42c2afb5ae,github commit,https://github.com/igniterealtime/Smack/commit/8e750912a765f77a4f178a4f307a8b42c2afb5ae,github commit,2007-01-11T19:01:24Z,https://api.github.com/repos/igniterealtime/Smack/commits/8e750912a765f77a4f178a4f307a8b42c2afb5ae,ok,GitHub commit URL has no created_at; used commit committer date,commit_committer_date
+59,CVE-2013-4330,"CAMEL-6748: Optimize File Producers by Skipping Header Evaluation. Thansk to James Carman for the patch.
+
+Conflicts:
+	camel-core/src/main/java/org/apache/camel/component/file/GenericFileProducer.java",,contains links,https://github.com/apache/camel/commit/3215fe50dd42c83a7a454dd36486843fe36eae4,apache/camel,https://github.com/apache/camel/commit/3215fe50dd42c83a7a454dd36486843fe36eae4,200,,https://issues.apache.org/jira/browse/CAMEL-6748; https://github.com/apache/camel/commit/9093b7ab99468758d7673e0d9d47883800de8650,https://issues.apache.org/jira/browse/CAMEL-6748,apache issue tracker,successful,,https://issues.apache.org/jira/browse/CAMEL-6748,jira issue tracker,https://issues.apache.org/jira/browse/CAMEL-6748,jira issue tracker,2013-09-14T11:46:00Z,https://issues.apache.org/jira/browse/CAMEL-6748,ok,parsed from Jira HTML fallback,created_at
+60,CVE-2021-29943,"SOLR-15233: Set doAs in ConfigurableInternodeAuthHadoopPlugin
+
+Additional-Author: Jason Gerlowski <gerlowskija@apache.org>
+Additional-Author: Geza Nagy <gezan>",,contains links,https://github.com/apache/solr/commit/def7f47a4d2389ce8362ce7215095c5e43afe5c0,apache/solr,https://github.com/apache/solr/commit/def7f47a4d2389ce8362ce7215095c5e43afe5c0,200,,https://issues.apache.org/jira/browse/SOLR-15233; https://github.com/apache/solr/commit/59a59138668e9513060824d85ee375a1723f4bfb,https://issues.apache.org/jira/browse/SOLR-15233,apache issue tracker,successful,,https://issues.apache.org/jira/browse/SOLR-15233,jira issue tracker,https://issues.apache.org/jira/browse/SOLR-15233,jira issue tracker,2021-03-09T17:20:00Z,https://issues.apache.org/jira/browse/SOLR-15233,ok,parsed from Jira HTML fallback,created_at
+61,CVE-2020-35213,not found,,contains links,https://github.com/atomix/atomix/commit/4a65503db2c810df7aa9f9b1dc0aec4debe21380,atomix/atomix,https://github.com/atomix/atomix/commit/4a65503db2c810df7aa9f9b1dc0aec4debe21380,200,,https://github.com/atomix/atomix/pull/984; https://github.com/atomix/atomix/commit/18613aed50d52436e9117bfc4fb568843b6c172b,https://github.com/atomix/atomix/pull/984,github pull request,successful,,https://github.com/atomix/atomix/pull/984,github pull request,https://github.com/atomix/atomix/pull/984,github pull request,2019-01-23T13:24:52Z,https://api.github.com/repos/atomix/atomix/issues/984,ok,,created_at
+62,CVE-2017-3159,CAMEL-10575: snakeyaml: add an option to filter classes the yaml parser can construct,,contains links,https://github.com/apache/camel/commit/6b979d07fd4be6ac913368f2abeae690d3325d37;https://github.com/apache/camel/commit/20e26226107f3133c87d0f5c845e02f824823f69,apache/camel,https://github.com/apache/camel/commit/6b979d07fd4be6ac913368f2abeae690d3325d37,200,,https://issues.apache.org/jira/browse/CAMEL-10575; https://github.com/apache/camel/commit/65a56ad900d434f09430998772e892243e9dcbcd,https://issues.apache.org/jira/browse/CAMEL-10575,apache issue tracker,successful,,https://issues.apache.org/jira/browse/CAMEL-10575,jira issue tracker,https://issues.apache.org/jira/browse/CAMEL-10575,jira issue tracker,2016-12-08T13:32:00Z,https://issues.apache.org/jira/browse/CAMEL-10575,ok,parsed from Jira HTML fallback,created_at
+63,CVE-2018-8018,IGNITE-8565 Client marshalling improvements,,contains links,https://github.com/apache/ignite/commit/bc374f85ca4a5e69572902d2167fe6bedebd40a;https://github.com/apache/ignite/commit/82a7b8209fcf56971d12cb10410a38ed632215b,apache/ignite,https://github.com/apache/ignite/commit/bc374f85ca4a5e69572902d2167fe6bedebd40a,200,,https://issues.apache.org/jira/browse/IGNITE-8565; https://github.com/apache/ignite/commit/b4b965bbd9caddee8f28c64689957f32d181eadf,https://issues.apache.org/jira/browse/IGNITE-8565,apache issue tracker,successful,,https://issues.apache.org/jira/browse/IGNITE-8565,jira issue tracker,https://issues.apache.org/jira/browse/IGNITE-8565,jira issue tracker,2018-05-22T22:28:00Z,https://issues.apache.org/jira/browse/IGNITE-8565,ok,parsed from Jira HTML fallback,created_at
+64,CVE-2020-5397,"Update CORS support
+
+This commit updates CORS support in order to check Origin header
+in CorsUtils#isPreFlightRequest which does not change how Spring
+MVC or WebFlux process CORS request but is more correct in term
+of behavior since it is a public API potentially used in another
+contexts.
+
+It also removes an unnecessary check in
+AbstractHandlerMethodMapping#hasCorsConfigurationSource and processes
+every preflight request with PreFlightHandler.
+
+Closes gh-24327",,contains links,https://github.com/spring-projects/spring-framework/commit/bc7d01048579430b4b2df668178809b63d3f1929,spring-projects/spring-framework,https://github.com/spring-projects/spring-framework/commit/bc7d01048579430b4b2df668178809b63d3f1929,200,,https://github.com/spring-projects/spring-framework/issues/24327; https://github.com/spring-projects/spring-framework/commit/8396e6bdd1c03b2fb32e5cf468f7f04b192d8474,https://github.com/spring-projects/spring-framework/issues/24327,github issue,successful,,https://github.com/spring-projects/spring-framework/issues/24327,github issue,https://github.com/spring-projects/spring-framework/issues/24327,github issue,2020-01-10T13:46:43Z,https://api.github.com/repos/spring-projects/spring-framework/issues/24327,ok,,created_at
+65,CVE-2018-8009,"Additional check when unpacking archives. Contributed by Jason Lowe and Akira Ajisaka.
+
+(cherry picked from commit cedc28d4ab2a27ba47e15ab2711218d96ec88d23)",,contains links,https://github.com/apache/hadoop/commit/1373e3d8ad60e4da721a292912cb69243bfdf47;https://github.com/apache/hadoop/commit/bd98d4e77cf9f7b2f4b1afb4d5e5bad0f6b2fde,apache/hadoop,https://github.com/apache/hadoop/commit/1373e3d8ad60e4da721a292912cb69243bfdf47,200,,https://github.com/apache/hadoop/commit/cedc28d4ab2a27ba47e15ab2711218d96ec88d23; https://github.com/apache/hadoop/commit/a10caac945828d141559e5f8b15317f1b286516b,https://github.com/apache/hadoop/commit/cedc28d4ab2a27ba47e15ab2711218d96ec88d23,github commit,successful,,https://github.com/apache/hadoop/commit/cedc28d4ab2a27ba47e15ab2711218d96ec88d23,github commit,https://github.com/apache/hadoop/commit/cedc28d4ab2a27ba47e15ab2711218d96ec88d23,github commit,2018-05-23T08:20:20Z,https://api.github.com/repos/apache/hadoop/commits/cedc28d4ab2a27ba47e15ab2711218d96ec88d23,ok,GitHub commit URL has no created_at; used commit committer date,commit_committer_date
+66,CVE-2021-43859,Describe and fix CVE-2021-43859.,,contains links,https://github.com/x-stream/xstream/commit/e8e88621ba1c85ac3b8620337dd672e0c0c3a846,x-stream/xstream,https://github.com/x-stream/xstream/commit/e8e88621ba1c85ac3b8620337dd672e0c0c3a846,200,,https://github.com/advisories/GHSA-rmr5-cpv2-vgjf; https://github.com/x-stream/xstream/commit/616e98771d50c910c54f8232ca753cd7bde86122,https://github.com/advisories/GHSA-rmr5-cpv2-vgjf,github advisory,successful,,https://github.com/advisories/GHSA-rmr5-cpv2-vgjf,github advisory,https://github.com/advisories/GHSA-rmr5-cpv2-vgjf,github advisory,2022-02-01T00:48:15Z,https://api.github.com/advisories/GHSA-rmr5-cpv2-vgjf,ok,GitHub advisory API exposes published_at; used as advisory availability date,published_at
+67,CVE-2021-28164,"Merge pull request from GHSA-v7ff-8wcx-gmc5
+
+Always normalize ambiguous URIs
+
+Signed-off-by: Greg Wilkins <gregw@webtide.com>",,contains links,https://github.com/eclipse/jetty.project/commit/e412c8a15b3334b30193f40412c0fbc47e478e83,eclipse/jetty.project,https://github.com/eclipse/jetty.project/commit/e412c8a15b3334b30193f40412c0fbc47e478e83,200,,https://github.com/advisories/GHSA-v7ff-8wcx-gmc5; https://github.com/jetty/jetty.project/commit/294b2ba02b667548617a94cd99592110ac230add,https://github.com/advisories/GHSA-v7ff-8wcx-gmc5,github advisory,successful,,https://github.com/advisories/GHSA-v7ff-8wcx-gmc5,github advisory,https://github.com/advisories/GHSA-v7ff-8wcx-gmc5,github advisory,2021-04-06T17:31:01Z,https://api.github.com/advisories/GHSA-v7ff-8wcx-gmc5,ok,GitHub advisory API exposes published_at; used as advisory availability date,published_at
+68,CVE-2018-1000850,"Forbid path traversal ('.' and '..') as @Path parameters.
+
+They're likely to have the unintended effect. For example, passing ""..""
+to @DELETE /account/book/{isbn}/ yields @DELETE /account/.",,contains links,https://github.com/square/retrofit/commit/b9a7f6ad72073ddd40254c0058710e87a073047d,square/retrofit,https://github.com/square/retrofit/commit/b9a7f6ad72073ddd40254c0058710e87a073047d,200,,https://github.com/square/retrofit/commit/5088b0df6f2c52fcead426dafbb04214225e0cc7,https://github.com/square/retrofit/commit/5088b0df6f2c52fcead426dafbb04214225e0cc7,github commit,successful,,https://github.com/square/retrofit/commit/5088b0df6f2c52fcead426dafbb04214225e0cc7,github commit,https://github.com/square/retrofit/commit/5088b0df6f2c52fcead426dafbb04214225e0cc7,github commit,2018-10-16T20:24:22Z,https://api.github.com/repos/square/retrofit/commits/5088b0df6f2c52fcead426dafbb04214225e0cc7,ok,GitHub commit URL has no created_at; used commit committer date,commit_committer_date
+69,CVE-2014-3574,not found,,contains links,https://github.com/apache/poi/commit/103b45073c7b504236588b3acc146530205af53c;https://github.com/apache/poi/commit/bb7a24769a97732e760a0d70e76466424bfc4d8e;https://github.com/apache/poi/commit/b350d5c5edbf2fa4312ab0f46194a733194ddf55;https://github.com/apache/poi/commit/07771c3d8c7204c14a7a597b4db04a7e828a956f;https://github.com/apache/poi/commit/236c3c52a9b90688b2e57ec503559409e29f33ed,apache/poi,https://github.com/apache/poi/commit/103b45073c7b504236588b3acc146530205af53c,200,,https://svn.apache.org/repos/asf/poi/branches/REL_3_10_BRANCH@1616509; https://github.com/apache/poi/commit/dfa98753acd28420afe3b0a0cbb906ab71b9bf4d,https://svn.apache.org/repos/asf/poi/branches/REL_3_10_BRANCH@1616509,source/tracker link,successful,,https://svn.apache.org/repos/asf/poi/branches/REL_3_10_BRANCH@1616509,svn/source link,https://svn.apache.org/repos/asf/poi/branches/REL_3_10_BRANCH@1616509,svn/source link,,https://svn.apache.org/repos/asf/poi/branches/REL_3_10_BRANCH@1616509,not_available,"SVN revision date not found for r1616509; last error: <!DOCTYPE HTML PUBLIC ""-//IETF//DTD HTML 2.0//EN"">
+<html><head>
+<title>401 Unauthorized</title>
+</head><body>
+<h1>Unauthorized</h1>
+<p>This server could not verify that you
+are authorized to access the document
+requested.  Either you supplied the wrong
+credentials (e.g., bad password), or your
+browser doesn't understand how to supply
+the credentials required.</p>
+</body></html>
+ (401) for https://svn.apache.org/repos/asf/poi/branches/REL_3_10_BRANCH@1616509",
+70,CVE-2014-9527,not found,,contains links,https://github.com/apache/poi/commit/21d2bc3cffeefab6c41627da469fce35ed7760e6,apache/poi,https://github.com/apache/poi/commit/21d2bc3cffeefab6c41627da469fce35ed7760e6,200,,https://svn.apache.org/repos/asf/poi/trunk@1643680; https://github.com/apache/poi/commit/93dffcb366c327b6a7b6c5e6989d26449016cee3,https://svn.apache.org/repos/asf/poi/trunk@1643680,source/tracker link,successful,,https://svn.apache.org/repos/asf/poi/trunk@1643680,svn/source link,https://svn.apache.org/repos/asf/poi/trunk@1643680,svn/source link,,https://svn.apache.org/repos/asf/poi/trunk@1643680,not_available,"SVN revision date not found for r1643680; last error: <!DOCTYPE HTML PUBLIC ""-//IETF//DTD HTML 2.0//EN"">
+<html><head>
+<title>401 Unauthorized</title>
+</head><body>
+<h1>Unauthorized</h1>
+<p>This server could not verify that you
+are authorized to access the document
+requested.  Either you supplied the wrong
+credentials (e.g., bad password), or your
+browser doesn't understand how to supply
+the credentials required.</p>
+</body></html>
+ (401) for https://svn.apache.org/repos/asf/poi/trunk@1643680",
+71,CVE-2019-0212,"HBASE-21960 Ensure RESTServletContainer used by RESTServer
+
+Signed-off-by: stack <stack@apache.org>",,contains links,https://github.com/apache/hbase/commit/7206ef6427d12785b797797a00153b5437e21cb1,apache/hbase,https://github.com/apache/hbase/commit/7206ef6427d12785b797797a00153b5437e21cb1,200,,https://issues.apache.org/jira/browse/HBASE-21960; https://github.com/apache/hbase/commit/bc71447a0de8126f4dc75ae73c58a41f7c989cb1,https://issues.apache.org/jira/browse/HBASE-21960,apache issue tracker,successful,,https://issues.apache.org/jira/browse/HBASE-21960,jira issue tracker,https://issues.apache.org/jira/browse/HBASE-21960,jira issue tracker,2019-02-26T16:21:00Z,https://issues.apache.org/jira/browse/HBASE-21960,ok,parsed from Jira HTML fallback,created_at
+72,CVE-2019-11272,"PlaintextPasswordEncoder ignores null encoded passwords
+
+Fixes gh-7023",,contains links,https://github.com/spring-projects/spring-security/commit/b2d4fec3617c497c5a8eb9c7e5270e0c7db293ee;https://github.com/spring-projects/spring-security/commit/12dbf2e9612cddd775904952d01bfc044fb1d1bb,spring-projects/spring-security,https://github.com/spring-projects/spring-security/commit/b2d4fec3617c497c5a8eb9c7e5270e0c7db293ee,200,,https://github.com/spring-projects/spring-security/issues/7023; https://github.com/spring-projects/spring-security/commit/4a7bdc1d6586a879342fee7a845ed653939a74a0,https://github.com/spring-projects/spring-security/issues/7023,github issue,successful,,https://github.com/spring-projects/spring-security/issues/7023,github issue,https://github.com/spring-projects/spring-security/issues/7023,github issue,2019-06-19T17:48:44Z,https://api.github.com/repos/spring-projects/spring-security/issues/7023,ok,,created_at
+73,CVE-2016-6795,merged fix for WW-4628 (proper url decoding of query-string),,contains links,https://github.com/apache/struts/commit/7d8c3598ef4a4699515a2b8e1064d4e9b921a58b,apache/struts,https://github.com/apache/struts/commit/7d8c3598ef4a4699515a2b8e1064d4e9b921a58b,200,,https://issues.apache.org/jira/browse/WW-4628; https://github.com/apache/struts/commit/83bb64f4c232348c4162ad2272c7eae1855a7362,https://issues.apache.org/jira/browse/WW-4628,apache issue tracker,successful,,https://issues.apache.org/jira/browse/WW-4628,jira issue tracker,https://issues.apache.org/jira/browse/WW-4628,jira issue tracker,2016-04-28T18:32:00Z,https://issues.apache.org/jira/browse/WW-4628,ok,parsed from Jira HTML fallback,created_at
+74,CVE-2016-3083,HIVE-13390: HiveServer2: Add more test to ZK service discovery using MiniHS2 (Vaibhav Gumashta reviewed by Sushanth Sowmyan),,contains links,https://github.com/apache/hive/commit/116751eb543ff218502b5bf2add342b152baa17d,apache/hive,https://github.com/apache/hive/commit/116751eb543ff218502b5bf2add342b152baa17d,200,,https://issues.apache.org/jira/browse/HIVE-13390; https://github.com/apache/hive/commit/53aad28c69b97fc70aa355180dc833c91898bad1,https://issues.apache.org/jira/browse/HIVE-13390,apache issue tracker,successful,,https://issues.apache.org/jira/browse/HIVE-13390,jira issue tracker,https://issues.apache.org/jira/browse/HIVE-13390,jira issue tracker,2016-03-30T22:07:00Z,https://issues.apache.org/jira/browse/HIVE-13390,ok,parsed from Jira HTML fallback,created_at
+75,CVE-2018-8036,not found,,contains links,https://github.com/apache/pdfbox/commit/038c09b5f361e083a00ce076c95521b73202fcb4,apache/pdfbox,https://github.com/apache/pdfbox/commit/038c09b5f361e083a00ce076c95521b73202fcb4,200,,https://svn.apache.org/repos/asf/pdfbox/trunk@1834048; https://github.com/apache/pdfbox/commit/6776073c0bde99bb3987c8012423676595bbb18b,https://svn.apache.org/repos/asf/pdfbox/trunk@1834048,source/tracker link,successful,,https://svn.apache.org/repos/asf/pdfbox/trunk@1834048,svn/source link,https://svn.apache.org/repos/asf/pdfbox/trunk@1834048,svn/source link,,https://svn.apache.org/repos/asf/pdfbox/trunk@1834048,not_available,"SVN revision date not found for r1834048; last error: <!DOCTYPE HTML PUBLIC ""-//IETF//DTD HTML 2.0//EN"">
+<html><head>
+<title>401 Unauthorized</title>
+</head><body>
+<h1>Unauthorized</h1>
+<p>This server could not verify that you
+are authorized to access the document
+requested.  Either you supplied the wrong
+credentials (e.g., bad password), or your
+browser doesn't understand how to supply
+the credentials required.</p>
+</body></html>
+ (401) for https://svn.apache.org/repos/asf/pdfbox/trunk@1834048",
+76,CVE-2021-30468,"CXF-8435 - JsonMapObjectReaderWriter doesn't escape double quotes
+
+(cherry picked from commit fa01cfac792fb7cb2e6d553d38a7441a20c97ba8)",,contains links,https://github.com/apache/cxf/commit/9d423d4ceb41a6a025b1cada185f0255e731d3af,apache/cxf,https://github.com/apache/cxf/commit/9d423d4ceb41a6a025b1cada185f0255e731d3af,200,,https://github.com/apache/cxf/commit/fa01cfac792fb7cb2e6d553d38a7441a20c97ba8; https://github.com/apache/cxf/commit/d3f0f0f620efbc108782f63a9f93f993716038a5,https://github.com/apache/cxf/commit/fa01cfac792fb7cb2e6d553d38a7441a20c97ba8,github commit,successful,,https://github.com/apache/cxf/commit/fa01cfac792fb7cb2e6d553d38a7441a20c97ba8,github commit,https://github.com/apache/cxf/commit/fa01cfac792fb7cb2e6d553d38a7441a20c97ba8,github commit,2021-05-28T10:54:50Z,https://api.github.com/repos/apache/cxf/commits/fa01cfac792fb7cb2e6d553d38a7441a20c97ba8,ok,GitHub commit URL has no created_at; used commit committer date,commit_committer_date
+77,CVE-2021-22118,"Ensure Synchronoss temp directories do not collide
+
+This commit makes sure that Synchronoss uses a random temporary
+directory to store uploaded files, so that two instances do not collide.
+
+Closes gh-26931",,contains links,https://github.com/spring-projects/spring-framework/commit/cce60c479c22101f24b2b4abebb6d79440b120d1,spring-projects/spring-framework,https://github.com/spring-projects/spring-framework/commit/cce60c479c22101f24b2b4abebb6d79440b120d1,200,,https://github.com/spring-projects/spring-framework/issues/26931; https://github.com/spring-projects/spring-framework/commit/1469bdbc70ac78b0c13b7bbaeb54a91dce6e8493,https://github.com/spring-projects/spring-framework/issues/26931,github issue,successful,,https://github.com/spring-projects/spring-framework/issues/26931,github issue,https://github.com/spring-projects/spring-framework/issues/26931,github issue,2021-05-11T16:04:48Z,https://api.github.com/repos/spring-projects/spring-framework/issues/26931,ok,,created_at
+78,CVE-2018-11797,not found,,contains links,https://github.com/apache/pdfbox/commit/a6deb9d7ffec79986cac82345db724b343ca3e5;https://github.com/apache/pdfbox/commit/f7dc8eed7df007c88421919932e2d4de44d2ae2;https://github.com/apache/pdfbox/commit/ea7d321b6e23cf017437846bcee4de19784cf6c8;https://github.com/apache/pdfbox/commit/bb5defd088bebd566d126df079d35b356ba0534a;https://github.com/apache/pdfbox/commit/2db39c139d935a8ba03e1ae3c012d2d41dd6912a,apache/pdfbox,https://github.com/apache/pdfbox/commit/a6deb9d7ffec79986cac82345db724b343ca3e5,200,,https://svn.apache.org/repos/asf/pdfbox/branches/2.0@1837440; https://github.com/apache/pdfbox/commit/e5ea85c2ee3768b61f5a0fb6d6bcf471957ebdcb,https://svn.apache.org/repos/asf/pdfbox/branches/2.0@1837440,source/tracker link,successful,,https://svn.apache.org/repos/asf/pdfbox/branches/2.0@1837440,svn/source link,https://svn.apache.org/repos/asf/pdfbox/branches/2.0@1837440,svn/source link,,https://svn.apache.org/repos/asf/pdfbox/branches/2.0@1837440,not_available,"SVN revision date not found for r1837440; last error: <!DOCTYPE HTML PUBLIC ""-//IETF//DTD HTML 2.0//EN"">
+<html><head>
+<title>401 Unauthorized</title>
+</head><body>
+<h1>Unauthorized</h1>
+<p>This server could not verify that you
+are authorized to access the document
+requested.  Either you supplied the wrong
+credentials (e.g., bad password), or your
+browser doesn't understand how to supply
+the credentials required.</p>
+</body></html>
+ (401) for https://svn.apache.org/repos/asf/pdfbox/branches/2.0@1837440",
+79,CVE-2017-5645,"[LOG4J2-1863] Add class filtering to AbstractSocketServer
+
+This allows a whitelist of class names to be specified to configure
+which classes are allowed to be deserialized in both TcpSocketServer and
+UdpSocketServer.",,contains links,https://github.com/apache/logging-log4j2/commit/5dcc19215827db29c993d0305ee2b0d8dd05939d,apache/logging-log4j2,https://github.com/apache/logging-log4j2/commit/5dcc19215827db29c993d0305ee2b0d8dd05939d,200,,https://issues.apache.org/jira/browse/LOG4J2-1863; https://github.com/apache/logging-log4j2/commit/5aff929bb44e63c0dbf0cdc7cfb5d5fbd50660ef,https://issues.apache.org/jira/browse/LOG4J2-1863,apache issue tracker,successful,,https://issues.apache.org/jira/browse/LOG4J2-1863,jira issue tracker,https://issues.apache.org/jira/browse/LOG4J2-1863,jira issue tracker,2017-04-02T17:41:00Z,https://issues.apache.org/jira/browse/LOG4J2-1863,ok,parsed from Jira HTML fallback,created_at
+80,CVE-2021-27850,TAP5-2663: ChecksumPath should ignore slashes at the end of URLs,,contains links,https://github.com/apache/tapestry-5/commit/2089b0d52b9f9158a1d20ca95d98d88037cede61,apache/tapestry-5,https://github.com/apache/tapestry-5/commit/2089b0d52b9f9158a1d20ca95d98d88037cede61,200,,https://issues.apache.org/jira/browse/TAP5-2663; https://github.com/apache/tapestry-5/commit/1d31e8a0b7c9329a2c3b60ecf108c4eb8f7efcd4,https://issues.apache.org/jira/browse/TAP5-2663,apache issue tracker,successful,,https://issues.apache.org/jira/browse/TAP5-2663,jira issue tracker,https://issues.apache.org/jira/browse/TAP5-2663,jira issue tracker,2021-02-28T13:10:00Z,https://issues.apache.org/jira/browse/TAP5-2663,ok,parsed from Jira HTML fallback,created_at
+81,CVE-2014-0002,CAMEL-7129: Remove the CamelXsltResourceUri header from xslt component,,contains links,https://github.com/apache/camel/commit/341d4e6cca71c53c90962d1c3d45fc9e05cc50c6;https://github.com/apache/camel/commit/54b65c1d30848835f26bd138c0ba407bc1e560d,apache/camel,https://github.com/apache/camel/commit/341d4e6cca71c53c90962d1c3d45fc9e05cc50c6,200,,https://issues.apache.org/jira/browse/CAMEL-7129; https://github.com/apache/camel/commit/2639264b28940683dfc808bf8edfb41bbceb7ad7,https://issues.apache.org/jira/browse/CAMEL-7129,apache issue tracker,successful,,https://issues.apache.org/jira/browse/CAMEL-7129,jira issue tracker,https://issues.apache.org/jira/browse/CAMEL-7129,jira issue tracker,2014-01-13T03:00:00Z,https://issues.apache.org/jira/browse/CAMEL-7129,ok,parsed from Jira HTML fallback,created_at
+82,CVE-2014-1972,TAP5-2008: Implement HMAC signatures on object streams stored on the client,,contains links,https://github.com/apache/tapestry-5/commit/95846b173d83c2eb42db75dae3e7d5e13a633946,apache/tapestry-5,https://github.com/apache/tapestry-5/commit/95846b173d83c2eb42db75dae3e7d5e13a633946,200,,https://issues.apache.org/jira/browse/TAP5-2008; https://github.com/apache/tapestry-5/commit/9001a1e3c2642c51550def85cde24cc31f96248e,https://issues.apache.org/jira/browse/TAP5-2008,apache issue tracker,successful,,https://issues.apache.org/jira/browse/TAP5-2008,jira issue tracker,https://issues.apache.org/jira/browse/TAP5-2008,jira issue tracker,2012-10-04T18:17:00Z,https://issues.apache.org/jira/browse/TAP5-2008,ok,parsed from Jira HTML fallback,created_at
+83,CVE-2020-15250,"Merge pull request from GHSA-269g-pwp5-87pp
+
+When running on Java 7 or later, temporary directories are now created
+Using Java’s NIO API which restricts permissions to owner-only by
+default.",,contains links,https://github.com/junit-team/junit4/commit/610155b8c22138329f0723eec22521627dbc52ae,junit-team/junit4,https://github.com/junit-team/junit4/commit/610155b8c22138329f0723eec22521627dbc52ae,200,,https://github.com/advisories/GHSA-269g-pwp5-87pp; https://github.com/junit-team/junit4/commit/b6cfd1e3d736cc2106242a8be799615b472c7fec,https://github.com/advisories/GHSA-269g-pwp5-87pp,github advisory,successful,,https://github.com/advisories/GHSA-269g-pwp5-87pp,github advisory,https://github.com/advisories/GHSA-269g-pwp5-87pp,github advisory,2020-10-12T17:33:00Z,https://api.github.com/advisories/GHSA-269g-pwp5-87pp,ok,GitHub advisory API exposes published_at; used as advisory availability date,published_at
+84,CVE-2018-1314,"HIVE-18778: Needs to capture input/output entities in explain (Daniel Dai, reviewed by Thejas Nair)",,contains links,https://github.com/apache/hive/commit/3b1d4fdfdfecbf162b60ec0e49a07595a8a51e79,apache/hive,https://github.com/apache/hive/commit/3b1d4fdfdfecbf162b60ec0e49a07595a8a51e79,200,,https://issues.apache.org/jira/browse/HIVE-18778; https://github.com/apache/hive/commit/00c0ee7bc4b8492476b377a6edafcc33411f14b6,https://issues.apache.org/jira/browse/HIVE-18778,apache issue tracker,successful,,https://issues.apache.org/jira/browse/HIVE-18778,jira issue tracker,https://issues.apache.org/jira/browse/HIVE-18778,jira issue tracker,2018-02-23T00:27:00Z,https://issues.apache.org/jira/browse/HIVE-18778,ok,parsed from Jira HTML fallback,created_at
+85,CVE-2021-21409,"Merge pull request from GHSA-f256-j965-7f32
+
+Motivation:
+
+We also need to ensure that all the header validation is done when a single header with the endStream flag is received
+
+Modifications:
+
+- Adjust code to always enforce the validation
+- Add more unit tests
+
+Result:
+
+Always correctly validate",,contains links,https://github.com/netty/netty/commit/b0fa4d5aab4215f3c22ce6123dd8dd5f38dc0432,netty/netty,https://github.com/netty/netty/commit/b0fa4d5aab4215f3c22ce6123dd8dd5f38dc0432,200,,https://github.com/advisories/GHSA-f256-j965-7f32; https://github.com/netty/netty/commit/5867de70d7159415652da2f390f111d59ef0c5a9,https://github.com/advisories/GHSA-f256-j965-7f32,github advisory,successful,,https://github.com/advisories/GHSA-f256-j965-7f32,github advisory,https://github.com/advisories/GHSA-f256-j965-7f32,github advisory,2021-03-30T15:10:38Z,https://api.github.com/advisories/GHSA-f256-j965-7f32,ok,GitHub advisory API exposes published_at; used as advisory availability date,published_at
+86,CVE-2017-3164,SOLR-12770: Make it possible to configure a host whitelist for distributed search,,contains links,https://github.com/apache/solr/commit/8b54b20,apache/solr,https://github.com/apache/solr/commit/8b54b20,200,,https://issues.apache.org/jira/browse/SOLR-12770; https://github.com/apache/solr/commit/b7f99fe55a6fb6e7b38828676750b3512d6899a1,https://issues.apache.org/jira/browse/SOLR-12770,apache issue tracker,successful,,https://issues.apache.org/jira/browse/SOLR-12770,jira issue tracker,https://issues.apache.org/jira/browse/SOLR-12770,jira issue tracker,2018-09-14T14:45:00Z,https://issues.apache.org/jira/browse/SOLR-12770,ok,parsed from Jira HTML fallback,created_at
+87,CVE-2015-0899,Fixed CVE-2014-0114,,contains links,https://github.com/kawasima/struts1-forever/commit/212bb0f7c57617b7b9c44cb1e056bd1e597c8e16,kawasima/struts1-forever,https://github.com/kawasima/struts1-forever/commit/212bb0f7c57617b7b9c44cb1e056bd1e597c8e16,200,,https://github.com/advisories/GHSA-p66x-2cv9-qq3v; https://github.com/kawasima/struts1-forever/commit/b6f974288d16d53ab2a5cb6101d32bbddc187cf1,https://github.com/advisories/GHSA-p66x-2cv9-qq3v,github advisory,successful,,https://github.com/advisories/GHSA-p66x-2cv9-qq3v,github advisory,https://github.com/advisories/GHSA-p66x-2cv9-qq3v,github advisory,2020-06-10T23:38:01Z,https://api.github.com/advisories/GHSA-p66x-2cv9-qq3v,ok,GitHub advisory API exposes published_at; used as advisory availability date,published_at
+88,CVE-2015-1833,not found,,contains links,https://github.com/apache/jackrabbit/commit/3903739363b79deb7579802fbc27b9b7448218b2;https://github.com/apache/jackrabbit/commit/89c5c4ed6ab250ad609829517f167d2dbe0abdd0,apache/jackrabbit,https://github.com/apache/jackrabbit/commit/3903739363b79deb7579802fbc27b9b7448218b2,200,,https://issues.apache.org/jira/browse/JCR-3883; https://svn.apache.org/repos/asf/jackrabbit/trunk@1680757; https://github.com/apache/jackrabbit/commit/5c0db2cd201fa0aad5cde0a5051758994831de5c,https://issues.apache.org/jira/browse/JCR-3883,apache issue tracker,successful,,https://issues.apache.org/jira/browse/JCR-3883,jira issue tracker,https://issues.apache.org/jira/browse/JCR-3883,jira issue tracker,2015-05-21T08:06:00Z,https://issues.apache.org/jira/browse/JCR-3883,ok,parsed from Jira HTML fallback,created_at
+89,CVE-2022-21724,"Merge pull request from GHSA-v7wg-cpwc-24m4
+
+This ensures arbitrary classes can't be passed instead of
+AuthenticationPlugin, SocketFactory, SSLSocketFactory, CallbackHandler, HostnameVerifier",,contains links,https://github.com/pgjdbc/pgjdbc/commit/f4d0ed69c0b3aae8531d83d6af4c57f22312c813,pgjdbc/pgjdbc,https://github.com/pgjdbc/pgjdbc/commit/f4d0ed69c0b3aae8531d83d6af4c57f22312c813,200,,https://github.com/advisories/GHSA-v7wg-cpwc-24m4; https://github.com/pgjdbc/pgjdbc/commit/d6e53121f7902d41222079cc6a1c2c7274153b18,https://github.com/advisories/GHSA-v7wg-cpwc-24m4,github advisory,successful,,https://github.com/advisories/GHSA-v7wg-cpwc-24m4,github advisory,https://github.com/advisories/GHSA-v7wg-cpwc-24m4,github advisory,2022-02-02T00:04:20Z,https://api.github.com/advisories/GHSA-v7wg-cpwc-24m4,ok,GitHub advisory API exposes published_at; used as advisory availability date,published_at
+90,CVE-2020-10727,ARTEMIS-2643 allow masked password when resetting via mgmnt,,contains links,https://github.com/apache/activemq-artemis/commit/ed7fee6d9cd94177dae30f2440e8bd07ddb5522a,apache/activemq-artemis,https://github.com/apache/activemq-artemis/commit/ed7fee6d9cd94177dae30f2440e8bd07ddb5522a,200,,https://issues.apache.org/jira/browse/ARTEMIS-2643; https://github.com/apache/artemis/commit/b156b7d3b3f10d807f4c71163d2b7cdec566794d,https://issues.apache.org/jira/browse/ARTEMIS-2643,apache issue tracker,successful,,https://issues.apache.org/jira/browse/ARTEMIS-2643,jira issue tracker,https://issues.apache.org/jira/browse/ARTEMIS-2643,jira issue tracker,2020-03-04T19:06:00Z,https://issues.apache.org/jira/browse/ARTEMIS-2643,ok,parsed from Jira HTML fallback,created_at
+91,CVE-2021-32623,"Merge pull request from GHSA-9gwx-9cwp-5c2m
+
+Guard XML parsing against XXE and billion laugh attacks (9.x version)",,contains links,https://github.com/opencast/opencast/commit/16b0d641713fe31b8518fcf14fc5e4e815d81206,opencast/opencast,https://github.com/opencast/opencast/commit/16b0d641713fe31b8518fcf14fc5e4e815d81206,200,,https://github.com/advisories/GHSA-9gwx-9cwp-5c2m; https://github.com/opencast/opencast/commit/969bbd17a22816f21952906d6cb43b6a59ae6b5a; https://github.com/opencast/opencast/commit/bf21b22b7ef0c26922a3aea5a9972e51f581ad18,https://github.com/advisories/GHSA-9gwx-9cwp-5c2m,github advisory,successful,,https://github.com/advisories/GHSA-9gwx-9cwp-5c2m,github advisory,https://github.com/advisories/GHSA-9gwx-9cwp-5c2m,github advisory,2021-06-17T20:11:35Z,https://api.github.com/advisories/GHSA-9gwx-9cwp-5c2m,ok,GitHub advisory API exposes published_at; used as advisory availability date,published_at
+92,CVE-2017-15717,"SLING-7323 - Optimise URL handling
+
+* added better decoding for URLs",,contains links,https://github.com/apache/sling-org-apache-sling-xss/commit/ec6764d165abc4df8cffd8439761bb2228887db9,apache/sling-org-apache-sling-xss,https://github.com/apache/sling-org-apache-sling-xss/commit/ec6764d165abc4df8cffd8439761bb2228887db9,200,,https://issues.apache.org/jira/browse/SLING-7323; https://github.com/apache/sling-org-apache-sling-xss/commit/11011d55eb929415b781c1bd79a11bb8d0f599e8,https://issues.apache.org/jira/browse/SLING-7323,apache issue tracker,successful,,https://issues.apache.org/jira/browse/SLING-7323,jira issue tracker,https://issues.apache.org/jira/browse/SLING-7323,jira issue tracker,2017-12-22T09:12:00Z,https://issues.apache.org/jira/browse/SLING-7323,ok,parsed from Jira HTML fallback,created_at
+93,CVE-2019-10093,"prep for 1.22 rc2
+
+(cherry picked from commit 22ff7564f2641ba195f192d7c59e9df4a3a10747)",,contains links,https://github.com/apache/tika/commit/81c21ab0aac6b3e4102a1a8906c8c7eab6f96dae,apache/tika,https://github.com/apache/tika/commit/81c21ab0aac6b3e4102a1a8906c8c7eab6f96dae,200,,https://github.com/apache/tika/commit/22ff7564f2641ba195f192d7c59e9df4a3a10747; https://github.com/apache/tika/commit/ed461e1dde10733a1936a35653762e62a1692aea,https://github.com/apache/tika/commit/22ff7564f2641ba195f192d7c59e9df4a3a10747,github commit,successful,,https://github.com/apache/tika/commit/22ff7564f2641ba195f192d7c59e9df4a3a10747,github commit,https://github.com/apache/tika/commit/22ff7564f2641ba195f192d7c59e9df4a3a10747,github commit,2019-07-24T12:14:01Z,https://api.github.com/repos/apache/tika/commits/22ff7564f2641ba195f192d7c59e9df4a3a10747,ok,GitHub commit URL has no created_at; used commit committer date,commit_committer_date
+94,CVE-2020-26259,Fix and document CVE-2020-26259.,,contains links,https://github.com/x-stream/xstream/commit/0bcbf50126a62dfcd65f93a0da0c6d1ae92aa738,x-stream/xstream,https://github.com/x-stream/xstream/commit/0bcbf50126a62dfcd65f93a0da0c6d1ae92aa738,200,,https://github.com/advisories/GHSA-jfvx-7wrx-43fh; https://github.com/x-stream/xstream/commit/6740c04b217aef02d44fba26402b35e0f6f493ce,https://github.com/advisories/GHSA-jfvx-7wrx-43fh,github advisory,successful,,https://github.com/advisories/GHSA-jfvx-7wrx-43fh,github advisory,https://github.com/advisories/GHSA-jfvx-7wrx-43fh,github advisory,2020-12-21T16:28:26Z,https://api.github.com/advisories/GHSA-jfvx-7wrx-43fh,ok,GitHub advisory API exposes published_at; used as advisory availability date,published_at
+95,CVE-2017-12625,"HIVE-17664: Refactor and add new tests (Jesus Camacho Rodriguez, reviewed by Ashutosh Chauhan)",,contains links,https://github.com/apache/hive/commit/8ffd8ea8eb8bfecb8770fb99e5f17877bb79a434,apache/hive,https://github.com/apache/hive/commit/8ffd8ea8eb8bfecb8770fb99e5f17877bb79a434,200,,https://issues.apache.org/jira/browse/HIVE-17664; https://github.com/apache/hive/commit/c17dbd123e80da716a6f9c9402282785b23373e0,https://issues.apache.org/jira/browse/HIVE-17664,apache issue tracker,successful,,https://issues.apache.org/jira/browse/HIVE-17664,jira issue tracker,https://issues.apache.org/jira/browse/HIVE-17664,jira issue tracker,2017-10-02T17:02:00Z,https://issues.apache.org/jira/browse/HIVE-17664,ok,parsed from Jira HTML fallback,created_at
+96,CVE-2018-8027,CAMEL-12444: Improved DTD handling in validator component.,,contains links,https://github.com/apache/camel/commit/24eefa559fe6b310629d2bf00663d2679ec81b9;https://github.com/apache/camel/commit/3fe03e361725b66c1c3eaa40bb11577fb3dc17b,apache/camel,https://github.com/apache/camel/commit/24eefa559fe6b310629d2bf00663d2679ec81b9,200,,https://issues.apache.org/jira/browse/CAMEL-12444; https://github.com/apache/camel/commit/750c8e42d445520e96ea3cfa8db833ec164ab2dd,https://issues.apache.org/jira/browse/CAMEL-12444,apache issue tracker,successful,,https://issues.apache.org/jira/browse/CAMEL-12444,jira issue tracker,https://issues.apache.org/jira/browse/CAMEL-12444,jira issue tracker,2018-04-16T08:54:00Z,https://issues.apache.org/jira/browse/CAMEL-12444,ok,parsed from Jira HTML fallback,created_at
+97,CVE-2018-8016,"Remove dependencies on JVM internals for JMX support
+
+Patch by Sam Tunnicliffe; reviewed by Jason Brown for CASSANDRA-14173",,contains links,https://github.com/apache/cassandra/commit/28ee665b3c0c9238b61a871064f024d54cddcc79,apache/cassandra,https://github.com/apache/cassandra/commit/28ee665b3c0c9238b61a871064f024d54cddcc79,200,,https://issues.apache.org/jira/browse/CASSANDRA-14173; https://github.com/apache/cassandra/commit/6b00767427706124e016e4f471c2266899387163,https://issues.apache.org/jira/browse/CASSANDRA-14173,apache issue tracker,successful,,https://issues.apache.org/jira/browse/CASSANDRA-14173,jira issue tracker,https://issues.apache.org/jira/browse/CASSANDRA-14173,jira issue tracker,2018-01-18T09:14:00Z,https://issues.apache.org/jira/browse/CASSANDRA-14173,ok,parsed from Jira HTML fallback,created_at
+98,CVE-2018-1295,ignite-6643 Marshalling improvements,,contains links,https://github.com/apache/ignite/commit/340569b8f4e14a4cb61a9407ed2d9aa4a20bdf49,apache/ignite,https://github.com/apache/ignite/commit/340569b8f4e14a4cb61a9407ed2d9aa4a20bdf49,200,,https://issues.apache.org/jira/browse/IGNITE-6643; https://github.com/apache/ignite/commit/ce96e4f3ed7c151b7f3e845981d7470d707c4050,https://issues.apache.org/jira/browse/IGNITE-6643,apache issue tracker,successful,,https://issues.apache.org/jira/browse/IGNITE-6643,jira issue tracker,https://issues.apache.org/jira/browse/IGNITE-6643,jira issue tracker,2017-10-16T17:40:00Z,https://issues.apache.org/jira/browse/IGNITE-6643,ok,parsed from Jira HTML fallback,created_at
+99,CVE-2018-8041,"CAMEL-12630: better attachment handling in came...
+
+...l-mail component",,contains links,https://github.com/apache/camel/commit/63c7c080de4d18f9ceb25843508710df2c2c6d4,apache/camel,https://github.com/apache/camel/commit/63c7c080de4d18f9ceb25843508710df2c2c6d4,200,,https://issues.apache.org/jira/browse/CAMEL-12630; https://github.com/apache/camel/commit/13035e06e6da532e98877bf9ea2abe9c18c31187,https://issues.apache.org/jira/browse/CAMEL-12630,apache issue tracker,successful,,https://issues.apache.org/jira/browse/CAMEL-12630,jira issue tracker,https://issues.apache.org/jira/browse/CAMEL-12630,jira issue tracker,2018-07-09T07:18:00Z,https://issues.apache.org/jira/browse/CAMEL-12630,ok,parsed from Jira HTML fallback,created_at
+100,CVE-2021-37137,"Merge pull request from GHSA-grg4-wf29-r9vv
+
+Motivation:
+
+We should do the Bzip2 decoding in a streaming fashion and so ensure we propagate the buffer as soon as possible through the pipeline. This allows the users to release these buffers as fast as possible.
+
+Modification:
+
+- Change the Bzip2Decoder to do the decompression of data in a streaming fashion.
+- Add some safety check to ensure the block length never execeeds the maximum (as defined in the spec)
+
+Result:
+
+No more risk of an OOME by decompress some large data via bzip2.
+
+Thanks to Ori Hollander of JFrog Security for reporting the issue.
+
+(we got acquired during the process and now Vdoo is part of JFrog company)",,contains links,https://github.com/netty/netty/commit/41d3d61a61608f2223bb364955ab2045dd5e4020,netty/netty,https://github.com/netty/netty/commit/41d3d61a61608f2223bb364955ab2045dd5e4020,200,,https://github.com/advisories/GHSA-grg4-wf29-r9vv; https://github.com/netty/netty/commit/deb048985bd74a825131e51849446d1e905b5e93,https://github.com/advisories/GHSA-grg4-wf29-r9vv,github advisory,successful,,https://github.com/advisories/GHSA-grg4-wf29-r9vv,github advisory,https://github.com/advisories/GHSA-grg4-wf29-r9vv,github advisory,2021-09-09T17:11:21Z,https://api.github.com/advisories/GHSA-grg4-wf29-r9vv,ok,GitHub advisory API exposes published_at; used as advisory availability date,published_at
+101,CVE-2018-1274,DATACMNS-1285 - PropertyPath now limits the depth of its parsing to 1000 segments.,,contains links,https://github.com/spring-projects/spring-data-commons/commit/371f6590c509c72f8e600f3d05e110941607fba;https://github.com/spring-projects/spring-data-commons/commit/3d8576fe4e4e71c23b9e6796b32fd56e51182ee,spring-projects/spring-data-commons,https://github.com/spring-projects/spring-data-commons/commit/371f6590c509c72f8e600f3d05e110941607fba,200,,https://jira.spring.io/browse/DATACMNS-1285; https://github.com/spring-projects/spring-data-commons/commit/999d26436b8327143a7ba620ec6e3834634d7b0c,https://jira.spring.io/browse/DATACMNS-1285,jira issue tracker,successful,,https://jira.spring.io/browse/DATACMNS-1285,jira issue tracker,https://jira.spring.io/browse/DATACMNS-1285,jira issue tracker,,https://jira.spring.io/browse/DATACMNS-1285,not_available,,
+102,CVE-2019-3778,"DefaultRedirectResolver matches on userinfo and query
+
+Fixes gh-1585",,contains links,https://github.com/spring-projects/spring-security-oauth/commit/97e0b4ab282acbed3588e05be03d5a0c4dbf3367,spring-projects/spring-security-oauth,https://github.com/spring-projects/spring-security-oauth/commit/97e0b4ab282acbed3588e05be03d5a0c4dbf3367,200,,https://github.com/spring-attic/spring-security-oauth/issues/1585; https://github.com/spring-attic/spring-security-oauth/commit/1e5536af65d76696908fc277432f0399e31acc33,https://github.com/spring-attic/spring-security-oauth/issues/1585,github issue,successful,,https://github.com/spring-attic/spring-security-oauth/issues/1585,github issue,https://github.com/spring-attic/spring-security-oauth/issues/1585,github issue,2019-02-19T01:18:01Z,https://api.github.com/repos/spring-attic/spring-security-oauth/issues/1585,ok,,created_at
+103,CVE-2016-3086,"Remove parent's env vars from child processes
+
+(cherry picked from commit b0bcb4e728e91c1c1acc514deb3f2c95626147b2)",,contains links,https://github.com/apache/hadoop/commit/c3b7425bf108a600889a4d59ae947b6f7523dcca,apache/hadoop,https://github.com/apache/hadoop/commit/c3b7425bf108a600889a4d59ae947b6f7523dcca,200,,https://github.com/apache/hadoop/commit/b0bcb4e728e91c1c1acc514deb3f2c95626147b2; https://github.com/apache/hadoop/commit/a1272d5fc019608d3ddca2c8ed2e03f2ddc7a0d7,https://github.com/apache/hadoop/commit/b0bcb4e728e91c1c1acc514deb3f2c95626147b2,github commit,successful,,https://github.com/apache/hadoop/commit/b0bcb4e728e91c1c1acc514deb3f2c95626147b2,github commit,https://github.com/apache/hadoop/commit/b0bcb4e728e91c1c1acc514deb3f2c95626147b2,github commit,2016-05-06T16:33:36Z,https://api.github.com/repos/apache/hadoop/commits/b0bcb4e728e91c1c1acc514deb3f2c95626147b2,ok,GitHub commit URL has no created_at; used commit committer date,commit_committer_date
+104,CVE-2016-6652,"DATAJPA-965 - Fix potential blind SQL injection in Sort when used in combination with @Query.
+
+We now decline sort expressions that contain functions such as ORDER BY LENGTH(name) when used with repository having a String query defined via the @Query annotation.
+
+Think of a query method as follows:
+
+@Query(""select p from Person p where LOWER(p.lastname) = LOWER(:lastname)"")
+List<Person> findByLastname(@Param(""lastname"") String lastname, Sort sort);
+
+Calls to findByLastname(""lannister"", new Sort(""LENGTH(firstname)"")) from now on throw an Exception indicating function calls are not allowed within the _ORDER BY_ clause. However you still can use JpaSort.unsafe(""LENGTH(firstname)"") to restore the behavior.
+
+Kudos to Niklas Särökaari, Joona Immonen, Arto Santala, Antti Virtanen, Michael Holopainen and Antti Ahola who brought this to our attention.",,contains links,https://github.com/spring-projects/spring-data-jpa/commit/a22c17fc12f7063716cb40c11d1ff4e265ef8556,spring-projects/spring-data-jpa,https://github.com/spring-projects/spring-data-jpa/commit/a22c17fc12f7063716cb40c11d1ff4e265ef8556,200,,https://jira.spring.io/browse/DATAJPA-965; https://github.com/spring-projects/spring-data-jpa/commit/9ce31b9da83aaeae91d3f3257a6d3e98fabbd8e8,https://jira.spring.io/browse/DATAJPA-965,jira issue tracker,successful,,https://jira.spring.io/browse/DATAJPA-965,jira issue tracker,https://jira.spring.io/browse/DATAJPA-965,jira issue tracker,,https://jira.spring.io/browse/DATAJPA-965,not_available,,
+105,CVE-2020-12480,"Fixed CSRF handling for invalid content types
+
+(cherry picked from commit 681d8ee3f785a6105b0595d8f10a8ee5718e6d7b)",,contains links,https://github.com/playframework/playframework/commit/c82de44fc50b7c58c6e0580f1f67ff08aa7bd154,playframework/playframework,https://github.com/playframework/playframework/commit/c82de44fc50b7c58c6e0580f1f67ff08aa7bd154,200,,https://github.com/playframework/playframework/commit/681d8ee3f785a6105b0595d8f10a8ee5718e6d7b; https://github.com/playframework/playframework/commit/f0cafae371821b99a8e96ba48c53822274dc675a,https://github.com/playframework/playframework/commit/681d8ee3f785a6105b0595d8f10a8ee5718e6d7b,github commit,successful,,https://github.com/playframework/playframework/commit/681d8ee3f785a6105b0595d8f10a8ee5718e6d7b,github commit,https://github.com/playframework/playframework/commit/681d8ee3f785a6105b0595d8f10a8ee5718e6d7b,github commit,2020-05-19T00:45:36Z,https://api.github.com/repos/playframework/playframework/commits/681d8ee3f785a6105b0595d8f10a8ee5718e6d7b,ok,GitHub commit URL has no created_at; used commit committer date,commit_committer_date
+106,CVE-2018-1287,not found,,contains links,https://github.com/apache/jmeter/commit/8a0154759224243fb72dd41a4a65ad0f5612a739,apache/jmeter,https://github.com/apache/jmeter/commit/8a0154759224243fb72dd41a4a65ad0f5612a739,200,,https://svn.apache.org/repos/asf/jmeter/trunk@1822052; https://github.com/apache/jmeter/commit/f65fce9ba1834a3b3aff67d654015e516912f5a8,https://svn.apache.org/repos/asf/jmeter/trunk@1822052,source/tracker link,successful,,https://svn.apache.org/repos/asf/jmeter/trunk@1822052,svn/source link,https://svn.apache.org/repos/asf/jmeter/trunk@1822052,svn/source link,,https://svn.apache.org/repos/asf/jmeter/trunk@1822052,not_available,"SVN revision date not found for r1822052; last error: <!DOCTYPE HTML PUBLIC ""-//IETF//DTD HTML 2.0//EN"">
+<html><head>
+<title>401 Unauthorized</title>
+</head><body>
+<h1>Unauthorized</h1>
+<p>This server could not verify that you
+are authorized to access the document
+requested.  Either you supplied the wrong
+credentials (e.g., bad password), or your
+browser doesn't understand how to supply
+the credentials required.</p>
+</body></html>
+ (401) for https://svn.apache.org/repos/asf/jmeter/trunk@1822052",
+107,CVE-2016-0785,Ports blocking eval expressions from commit 61a7ee296161bbfa61e90871649598a2e4a680a2,,contains links,https://github.com/apache/struts/commit/bd1a121b8286c412f5fc84c61599c293483fc11a,apache/struts,https://github.com/apache/struts/commit/bd1a121b8286c412f5fc84c61599c293483fc11a,200,,https://github.com/apache/struts/commit/61a7ee296161bbfa61e90871649598a2e4a680a2; https://github.com/apache/struts/commit/6177cf3387ad2daf0be30eae1c47c1f8dcc72122,https://github.com/apache/struts/commit/61a7ee296161bbfa61e90871649598a2e4a680a2,github commit,successful,,https://github.com/apache/struts/commit/61a7ee296161bbfa61e90871649598a2e4a680a2,github commit,https://github.com/apache/struts/commit/61a7ee296161bbfa61e90871649598a2e4a680a2,github commit,2016-01-10T11:00:10Z,https://api.github.com/repos/apache/struts/commits/61a7ee296161bbfa61e90871649598a2e4a680a2,ok,GitHub commit URL has no created_at; used commit committer date,commit_committer_date
+108,CVE-2019-10219,not found,,contains links,https://github.com/hibernate/hibernate-validator/commit/c1ce5278846a6fa1b009412fa65cbd33794050e8;https://github.com/hibernate/hibernate-validator/commit/20d729548511ac5cff6fd459f93de137195420fe,hibernate/hibernate-validator,https://github.com/hibernate/hibernate-validator/commit/c1ce5278846a6fa1b009412fa65cbd33794050e8,200,,https://github.com/advisories/GHSA-m8p2-495h-ccmh; https://github.com/hibernate/hibernate-validator/commit/020538e41a28a4e3086b515d83955ecb5e7b4e36,https://github.com/advisories/GHSA-m8p2-495h-ccmh,github advisory,successful,,https://github.com/advisories/GHSA-m8p2-495h-ccmh,github advisory,https://github.com/advisories/GHSA-m8p2-495h-ccmh,github advisory,2020-01-08T17:01:52Z,https://api.github.com/advisories/GHSA-m8p2-495h-ccmh,ok,GitHub advisory API exposes published_at; used as advisory availability date,published_at
+109,CVE-2010-2232,not found,,contains links,https://github.com/apache/derby/commit/ffa9392f7564652afc5d499a637aa2f5289cacc2,apache/derby,https://github.com/apache/derby/commit/ffa9392f7564652afc5d499a637aa2f5289cacc2,200,,https://svn.apache.org/repos/asf/db/derby/code/branches/10.6@957278; https://github.com/apache/derby/commit/6d5c3f07eeb37cf64a5ab0ef49e5b271fd6ae8ce,https://svn.apache.org/repos/asf/db/derby/code/branches/10.6@957278,source/tracker link,successful,,https://svn.apache.org/repos/asf/db/derby/code/branches/10.6@957278,svn/source link,https://svn.apache.org/repos/asf/db/derby/code/branches/10.6@957278,svn/source link,,https://svn.apache.org/repos/asf/db/derby/code/branches/10.6@957278,not_available,"SVN revision date not found for r957278; last error: <!DOCTYPE HTML PUBLIC ""-//IETF//DTD HTML 2.0//EN"">
+<html><head>
+<title>401 Unauthorized</title>
+</head><body>
+<h1>Unauthorized</h1>
+<p>This server could not verify that you
+are authorized to access the document
+requested.  Either you supplied the wrong
+credentials (e.g., bad password), or your
+browser doesn't understand how to supply
+the credentials required.</p>
+</body></html>
+ (401) for https://svn.apache.org/repos/asf/db/derby/code/branches/10.6@957278",
+110,CVE-2021-22696,"Disallow OAuth2 request_uri by default
+
+(cherry picked from commit 40503a53914758759894f704bbf139ae89ace286)",,contains links,https://github.com/apache/cxf/commit/7d5d2c7a019dd1e1d0566daf9f1ed5b7b0dd66b7,apache/cxf,https://github.com/apache/cxf/commit/7d5d2c7a019dd1e1d0566daf9f1ed5b7b0dd66b7,200,,https://github.com/apache/cxf/commit/40503a53914758759894f704bbf139ae89ace286; https://github.com/apache/cxf/commit/af8ac0ef7d7871af15aed635ce324edf5317edd5,https://github.com/apache/cxf/commit/40503a53914758759894f704bbf139ae89ace286,github commit,successful,,https://github.com/apache/cxf/commit/40503a53914758759894f704bbf139ae89ace286,github commit,https://github.com/apache/cxf/commit/40503a53914758759894f704bbf139ae89ace286,github commit,2021-01-06T09:30:08Z,https://api.github.com/repos/apache/cxf/commits/40503a53914758759894f704bbf139ae89ace286,ok,GitHub commit URL has no created_at; used commit committer date,commit_committer_date
+111,CVE-2014-8152,not found,,contains links,https://github.com/apache/santuario-java/commit/55857fd4cdfdb1af4069170ecdac448c078f544e;https://github.com/apache/santuario-xml-security-java/commit/3d7086c603a4538933dfa98d697d0df4539a984f,apache/santuario-java,https://github.com/apache/santuario-java/commit/55857fd4cdfdb1af4069170ecdac448c078f544e,200,,https://svn.apache.org/repos/asf/santuario/xml-security-java/trunk@1634334; https://github.com/apache/santuario-java/commit/5b197b8ce5a81414138e96870bd619f3c733631f,https://svn.apache.org/repos/asf/santuario/xml-security-java/trunk@1634334,source/tracker link,successful,,https://svn.apache.org/repos/asf/santuario/xml-security-java/trunk@1634334,svn/source link,https://svn.apache.org/repos/asf/santuario/xml-security-java/trunk@1634334,svn/source link,,https://svn.apache.org/repos/asf/santuario/xml-security-java/trunk@1634334,not_available,"SVN revision date not found for r1634334; last error: <!DOCTYPE HTML PUBLIC ""-//IETF//DTD HTML 2.0//EN"">
+<html><head>
+<title>401 Unauthorized</title>
+</head><body>
+<h1>Unauthorized</h1>
+<p>This server could not verify that you
+are authorized to access the document
+requested.  Either you supplied the wrong
+credentials (e.g., bad password), or your
+browser doesn't understand how to supply
+the credentials required.</p>
+</body></html>
+ (401) for https://svn.apache.org/repos/asf/santuario/xml-security-java/trunk@1634334",
+112,CVE-2021-37136,"Merge pull request from GHSA-9vjp-v76f-g363
+
+Motivation:
+
+e Snappy frame decoder function doesn't restrict the size of the compressed data (and the uncompressed data) which may lead to excessive memory usage. Beside this it also may buffer reserved skippable chunks until the whole chunk was received which may lead to excessive memory usage as well.
+
+Modifications:
+
+- Add various validations for the max allowed size of a chunk
+- Skip bytes on the fly when an skippable chunk is handled
+
+Result:
+
+No more risk of OOME. Thanks to Ori Hollander of JFrog Security for reporting the issue.",,contains links,https://github.com/netty/netty/commit/6da4956b31023ae967451e1d94ff51a746a9194f,netty/netty,https://github.com/netty/netty/commit/6da4956b31023ae967451e1d94ff51a746a9194f,200,,https://github.com/advisories/GHSA-9vjp-v76f-g363; https://github.com/netty/netty/commit/41d3d61a61608f2223bb364955ab2045dd5e4020,https://github.com/advisories/GHSA-9vjp-v76f-g363,github advisory,successful,,https://github.com/advisories/GHSA-9vjp-v76f-g363,github advisory,https://github.com/advisories/GHSA-9vjp-v76f-g363,github advisory,2021-09-09T17:11:31Z,https://api.github.com/advisories/GHSA-9vjp-v76f-g363,ok,GitHub advisory API exposes published_at; used as advisory availability date,published_at
+113,CVE-2018-1296,"HDFS-12832. INode.getFullPathName may throw ArrayIndexOutOfBoundsException lead to NameNode exit. Contribuited by Konstantin Shvachko.
+
+(cherry picked from commit d331762f24b3f22f609366740c9c4f449edc61ac)",,contains links,https://github.com/apache/hadoop/commit/7252e18c30f40bce9d01d5bb77f0ae526f479ad4,apache/hadoop,https://github.com/apache/hadoop/commit/7252e18c30f40bce9d01d5bb77f0ae526f479ad4,200,,https://issues.apache.org/jira/browse/HDFS-12832; https://github.com/apache/hadoop/commit/d331762f24b3f22f609366740c9c4f449edc61ac; https://github.com/apache/hadoop/commit/0da13b90f713aae3ee2e84efe5ae17e1c0a02b9d,https://issues.apache.org/jira/browse/HDFS-12832,apache issue tracker,successful,,https://issues.apache.org/jira/browse/HDFS-12832,jira issue tracker,https://issues.apache.org/jira/browse/HDFS-12832,jira issue tracker,2017-11-17T11:43:00Z,https://issues.apache.org/jira/browse/HDFS-12832,ok,parsed from Jira HTML fallback,created_at
+114,CVE-2015-1169,not found,,contains links,https://github.com/Jasig/cas/commit/7de61b4c6244af9ff8e75a2c92a570f3b075309c,Jasig/cas,https://github.com/Jasig/cas/commit/7de61b4c6244af9ff8e75a2c92a570f3b075309c,200,,https://github.com/apereo/cas/pull/411; https://github.com/apereo/cas/commit/c79fdfad59a2ad792153c511a9be417c7f4ebb6d; https://github.com/apereo/cas/commit/1dad29c71a3d601cf9c00f03a0803186e4123b29,https://github.com/apereo/cas/pull/411,github pull request,successful,,https://github.com/apereo/cas/pull/411,github pull request,https://github.com/apereo/cas/pull/411,github pull request,2014-03-05T16:25:36Z,https://api.github.com/repos/apereo/cas/issues/411,ok,,created_at
+115,CVE-2020-17518,"[hotfix][runtime] A customized filename can be specified through Content-Disposition that also allows passing of path information which was not properly handled. This is fixed now.
+
+We just use the filename instead of interpreting any path information that was passed through a custom filename. Two tests were added to verify the proper behavior:
+1. a custom filename without path information was used
+2. a custom filename with path information was used
+
+The change required adapting the MultipartUploadResource in a way that it is used not as a @ClassRule but as a @Rule instead. This enables us to initialize it differently on a per-test level. The change makes the verification of the uploaded files configurable.",,contains links,https://github.com/apache/flink/commit/a5264a6f41524afe8ceadf1d8ddc8c80f323ebc4,apache/flink,https://github.com/apache/flink/commit/a5264a6f41524afe8ceadf1d8ddc8c80f323ebc4,200,,https://github.com/apache/flink/commit/b561010b0ee741543c3953306037f00d7a9f0801,https://github.com/apache/flink/commit/b561010b0ee741543c3953306037f00d7a9f0801,github commit,successful,,https://github.com/apache/flink/commit/b561010b0ee741543c3953306037f00d7a9f0801,github commit,https://github.com/apache/flink/commit/b561010b0ee741543c3953306037f00d7a9f0801,github commit,2020-11-18T06:23:31Z,https://api.github.com/repos/apache/flink/commits/b561010b0ee741543c3953306037f00d7a9f0801,ok,GitHub commit URL has no created_at; used commit committer date,commit_committer_date
+116,CVE-2015-7521,"HIVE-12875 : Verify sem.getInputs() and sem.getOutputs() (Sushanth Sowmyan, reviewed by Alan Gates)",,contains links,https://github.com/apache/hive/commit/98f933f269e6b528ef84912b3d701ca3272ec04b,apache/hive,https://github.com/apache/hive/commit/98f933f269e6b528ef84912b3d701ca3272ec04b,200,,https://issues.apache.org/jira/browse/HIVE-12875; https://github.com/apache/hive/commit/d82409d0d804fa441b7956623ed92719886d2fcd,https://issues.apache.org/jira/browse/HIVE-12875,apache issue tracker,successful,,https://issues.apache.org/jira/browse/HIVE-12875,jira issue tracker,https://issues.apache.org/jira/browse/HIVE-12875,jira issue tracker,2016-01-14T23:43:00Z,https://issues.apache.org/jira/browse/HIVE-12875,ok,parsed from Jira HTML fallback,created_at
+117,CVE-2018-15758,"Validate authorization request on approval
+
+Fixes gh-1481",,contains links,https://github.com/spring-projects/spring-security-oauth/commit/623776689fdcc8047f5a908c71f348e1f172a97;https://github.com/spring-projects/spring-security-oauth/commit/f92223afc71687bd3156298054903f50aa71fbf,spring-projects/spring-security-oauth,https://github.com/spring-projects/spring-security-oauth/commit/623776689fdcc8047f5a908c71f348e1f172a97,200,,https://github.com/spring-attic/spring-security-oauth/issues/1481; https://github.com/spring-attic/spring-security-oauth/commit/0df211720ee5b6d31e0c5cf8faeeee7da8144c32,https://github.com/spring-attic/spring-security-oauth/issues/1481,github issue,successful,,https://github.com/spring-attic/spring-security-oauth/issues/1481,github issue,https://github.com/spring-attic/spring-security-oauth/issues/1481,github issue,2018-09-12T10:06:11Z,https://api.github.com/repos/spring-attic/spring-security-oauth/issues/1481,ok,,created_at
+118,CVE-2012-0213,not found,,contains links,https://github.com/apache/poi/commit/c702bc5ce58f9f11f408c7568cc96382c76641ef,apache/poi,https://github.com/apache/poi/commit/c702bc5ce58f9f11f408c7568cc96382c76641ef,200,,https://svn.apache.org/repos/asf/poi/trunk@1487555; https://github.com/apache/poi/commit/8044d82dd589d67dddb9cfcae71a708968b3d71c,https://svn.apache.org/repos/asf/poi/trunk@1487555,source/tracker link,successful,,https://svn.apache.org/repos/asf/poi/trunk@1487555,svn/source link,https://svn.apache.org/repos/asf/poi/trunk@1487555,svn/source link,,https://svn.apache.org/repos/asf/poi/trunk@1487555,not_available,"SVN revision date not found for r1487555; last error: <!DOCTYPE HTML PUBLIC ""-//IETF//DTD HTML 2.0//EN"">
+<html><head>
+<title>401 Unauthorized</title>
+</head><body>
+<h1>Unauthorized</h1>
+<p>This server could not verify that you
+are authorized to access the document
+requested.  Either you supplied the wrong
+credentials (e.g., bad password), or your
+browser doesn't understand how to supply
+the credentials required.</p>
+</body></html>
+ (401) for https://svn.apache.org/repos/asf/poi/trunk@1487555",
+119,CVE-2018-10936,"security: implement SSL hostname verification for non-default (LibPQFactory) SSL factories (CVE-2018-10936)
+
+In order to configure full SLL verification, `sslmode=verify-full` should be used.
+However, previous versions of pgjdbc missed hostname verification for non-default SSL factories,
+so `sslmode=verify-full` was effectively the same as `sslmode=verify-ca`.
+
+Default sslfactory (which is LibPQFactory) is not impacted.
+
+Extra changes:
+- support for sslmode=allow/prefer/require
+- ssl=true is treated as verify-full
+- sslfactoryarg and socketFactoryArg are deprecated (as constructors with Properties) can be used.",,contains links,https://github.com/pgjdbc/pgjdbc/commit/cdeeaca47dc3bc6f727c79a582c9e4123099526e,pgjdbc/pgjdbc,https://github.com/pgjdbc/pgjdbc/commit/cdeeaca47dc3bc6f727c79a582c9e4123099526e,200,,https://github.com/advisories/GHSA-568q-9fw5-28wf; https://github.com/pgjdbc/pgjdbc/commit/c2885dd0cfc793f81e5dd3ed2300bb32476eb14a,https://github.com/advisories/GHSA-568q-9fw5-28wf,github advisory,successful,,https://github.com/advisories/GHSA-568q-9fw5-28wf,github advisory,https://github.com/advisories/GHSA-568q-9fw5-28wf,github advisory,2018-10-19T16:53:33Z,https://api.github.com/advisories/GHSA-568q-9fw5-28wf,ok,GitHub advisory API exposes published_at; used as advisory availability date,published_at
+120,CVE-2018-11777,"HIVE-20420: Provide a fallback authorizer when no other authorizer is in use (Daniel Dai, reviewed by Laszlo Pinter, Thejas Nair)
+
+Signed-off-by: Thejas M Nair <thejas@hortonworks.com>",,contains links,https://github.com/apache/hive/commit/00c0ee7bc4b8492476b377a6edafcc33411f14b;https://github.com/apache/hive/commit/3b2ea248078bdf3a8372958cf51a989dc3883bcc;https://github.com/apache/hive/commit/f0419dfaabe31dd7802c37aeebab101265907e1;https://github.com/apache/hive/commit/1a1d6ca1bc3ae840238dc345fa1eb2c7c28c8cb,apache/hive,https://github.com/apache/hive/commit/00c0ee7bc4b8492476b377a6edafcc33411f14b,200,,https://issues.apache.org/jira/browse/HIVE-20420; https://github.com/apache/hive/commit/12d2b2dbf56d9a41d954487a70e99e9cdbcd8884,https://issues.apache.org/jira/browse/HIVE-20420,apache issue tracker,successful,,https://issues.apache.org/jira/browse/HIVE-20420,jira issue tracker,https://issues.apache.org/jira/browse/HIVE-20420,jira issue tracker,2018-08-18T05:07:00Z,https://issues.apache.org/jira/browse/HIVE-20420,ok,parsed from Jira HTML fallback,created_at
+121,CVE-2019-3795,"Align Code with Javadoc
+
+Fixes: gh-6734",,contains links,https://github.com/spring-projects/spring-security/commit/6f02f690ac65ccf99d8df47ac3d730a68f87c569,spring-projects/spring-security,https://github.com/spring-projects/spring-security/commit/6f02f690ac65ccf99d8df47ac3d730a68f87c569,200,,https://github.com/spring-projects/spring-security/issues/6734; https://github.com/spring-projects/spring-security/commit/14c4ac75ecfb4812114149585f85929bb6294688,https://github.com/spring-projects/spring-security/issues/6734,github issue,successful,,https://github.com/spring-projects/spring-security/issues/6734,github issue,https://github.com/spring-projects/spring-security/issues/6734,github issue,2019-04-02T15:16:44Z,https://api.github.com/repos/spring-projects/spring-security/issues/6734,ok,,created_at
+122,CVE-2020-17521,GROOVY-9824: replace some old api usage with newer available variants,,contains links,https://github.com/apache/groovy/commit/4e418d4a34c973a7ec1e822552103043ac13780e,apache/groovy,https://github.com/apache/groovy/commit/4e418d4a34c973a7ec1e822552103043ac13780e,200,,https://issues.apache.org/jira/browse/GROOVY-9824; https://github.com/apache/groovy/commit/76cad44a66d25ae8bfcbfa729a79ab57949a9a25,https://issues.apache.org/jira/browse/GROOVY-9824,apache issue tracker,successful,,https://issues.apache.org/jira/browse/GROOVY-9824,jira issue tracker,https://issues.apache.org/jira/browse/GROOVY-9824,jira issue tracker,2020-11-19T22:48:00Z,https://issues.apache.org/jira/browse/GROOVY-9824,ok,parsed from Jira HTML fallback,created_at
+123,CVE-2019-0194,not found,,contains links,https://github.com/apache/camel/commit/a1f2d214a5e045eeb391720193cd40944b34ac35;https://github.com/apache/camel/commit/85ce135a59c19c12d351a529bd517e31cebdc9ea,apache/camel,https://github.com/apache/camel/commit/a1f2d214a5e045eeb391720193cd40944b34ac35,200,,https://issues.apache.org/jira/browse/CAMEL-13042; https://github.com/apache/camel/commit/3eb9afd4085a2b3c2236743e814b4eaccc2c76cf,https://issues.apache.org/jira/browse/CAMEL-13042,apache issue tracker,successful,,https://issues.apache.org/jira/browse/CAMEL-13042,jira issue tracker,https://issues.apache.org/jira/browse/CAMEL-13042,jira issue tracker,2019-01-08T12:13:00Z,https://issues.apache.org/jira/browse/CAMEL-13042,ok,parsed from Jira HTML fallback,created_at
+124,CVE-2015-0264,CAMEL-8312: XML External Entity (XXE) injection in XPath. Thanks to Stephan Siano for the patch.,,contains links,https://github.com/apache/camel/commit/1df559649a96a1ca0368373387e542f46e4820da,apache/camel,https://github.com/apache/camel/commit/1df559649a96a1ca0368373387e542f46e4820da,200,,https://issues.apache.org/jira/browse/CAMEL-8312; https://github.com/apache/camel/commit/504cf03deba0726754f05152f7d8606fb76a72b4,https://issues.apache.org/jira/browse/CAMEL-8312,apache issue tracker,successful,,https://issues.apache.org/jira/browse/CAMEL-8312,jira issue tracker,https://issues.apache.org/jira/browse/CAMEL-8312,jira issue tracker,2015-02-04T07:25:00Z,https://issues.apache.org/jira/browse/CAMEL-8312,ok,parsed from Jira HTML fallback,created_at
+125,CVE-2013-4517,not found,,contains links,https://github.com/apache/santuario-java/commit/a09b9042f7759d094f2d49f40fc7bcf145164b25,apache/santuario-java,https://github.com/apache/santuario-java/commit/a09b9042f7759d094f2d49f40fc7bcf145164b25,200,,https://svn.apache.org/repos/asf/santuario/xml-security-java/branches/1.5.x-fixes@1537956; https://github.com/apache/santuario-java/commit/10c73335ccd7fabe63ea58754bea1bc4b2dc4a93,https://svn.apache.org/repos/asf/santuario/xml-security-java/branches/1.5.x-fixes@1537956,source/tracker link,successful,,https://svn.apache.org/repos/asf/santuario/xml-security-java/branches/1.5.x-fixes@1537956,svn/source link,https://svn.apache.org/repos/asf/santuario/xml-security-java/branches/1.5.x-fixes@1537956,svn/source link,,https://svn.apache.org/repos/asf/santuario/xml-security-java/branches/1.5.x-fixes@1537956,not_available,"SVN revision date not found for r1537956; last error: <!DOCTYPE HTML PUBLIC ""-//IETF//DTD HTML 2.0//EN"">
+<html><head>
+<title>401 Unauthorized</title>
+</head><body>
+<h1>Unauthorized</h1>
+<p>This server could not verify that you
+are authorized to access the document
+requested.  Either you supplied the wrong
+credentials (e.g., bad password), or your
+browser doesn't understand how to supply
+the credentials required.</p>
+</body></html>
+ (401) for https://svn.apache.org/repos/asf/santuario/xml-security-java/branches/1.5.x-fixes@1537956",
+126,CVE-2013-2172,not found,,contains links,https://github.com/apache/santuario-java/commit/d0536272059bba735583809e2bfa5d249bb2e537;https://github.com/apache/santuario-java/commit/8e8f8bf92a43608d7d5f9e357fae19244454a61f,apache/santuario-java,https://github.com/apache/santuario-java/commit/d0536272059bba735583809e2bfa5d249bb2e537,200,,https://svn.apache.org/repos/asf/santuario/xml-security-java/trunk@1493769; https://github.com/apache/santuario-java/commit/c387f6ff479de4b6073c5200d725306f27680fd1,https://svn.apache.org/repos/asf/santuario/xml-security-java/trunk@1493769,source/tracker link,successful,,https://svn.apache.org/repos/asf/santuario/xml-security-java/trunk@1493769,svn/source link,https://svn.apache.org/repos/asf/santuario/xml-security-java/trunk@1493769,svn/source link,,https://svn.apache.org/repos/asf/santuario/xml-security-java/trunk@1493769,not_available,"SVN revision date not found for r1493769; last error: <!DOCTYPE HTML PUBLIC ""-//IETF//DTD HTML 2.0//EN"">
+<html><head>
+<title>401 Unauthorized</title>
+</head><body>
+<h1>Unauthorized</h1>
+<p>This server could not verify that you
+are authorized to access the document
+requested.  Either you supplied the wrong
+credentials (e.g., bad password), or your
+browser doesn't understand how to supply
+the credentials required.</p>
+</body></html>
+ (401) for https://svn.apache.org/repos/asf/santuario/xml-security-java/trunk@1493769",
+127,CVE-2017-15709,"AMQ-6871 - By default only send generic platform details
+
+The default behavior by the OpenWire client will be to send generic
+platform details to the server with a new flag to send more specific
+information.
+
+(cherry picked from commit 5fa0bbd5156f29d97dcf48fd9fdb6a0488a8df1a)",,contains links,https://github.com/apache/activemq/commit/d2e49be3a8f21d862726c1f6bc9e1caa6ee8b581,apache/activemq,https://github.com/apache/activemq/commit/d2e49be3a8f21d862726c1f6bc9e1caa6ee8b581,200,,https://issues.apache.org/jira/browse/AMQ-6871; https://github.com/apache/activemq/commit/5fa0bbd5156f29d97dcf48fd9fdb6a0488a8df1a; https://github.com/apache/activemq/commit/1cfc9ff9a6d0682bd8fccf278924d15a908ccb31,https://issues.apache.org/jira/browse/AMQ-6871,apache issue tracker,successful,,https://issues.apache.org/jira/browse/AMQ-6871,jira issue tracker,https://issues.apache.org/jira/browse/AMQ-6871,jira issue tracker,2017-12-06T13:38:00Z,https://issues.apache.org/jira/browse/AMQ-6871,ok,parsed from Jira HTML fallback,created_at
+128,CVE-2019-0232,"Limit CGI command line arguments
+
+Limit the decoded form of individual command line arguments. This is to
+work various issues passing command line arguments from Java to the OS
+on Windows.
+This restriction may be overridden by the new initialisation parameter
+cmdLineArgumentsDecoded.
+This is the fix for CVE-2019-0232.",,contains links,https://github.com/apache/tomcat/commit/4b244d827ade2a36ef3b8734939541207b78f35c,apache/tomcat,https://github.com/apache/tomcat/commit/4b244d827ade2a36ef3b8734939541207b78f35c,200,,https://github.com/advisories/GHSA-8vmx-qmch-mpqg; https://github.com/apache/tomcat/commit/55f4eba042a25e2e56dfe4288814ad0884bfc748,https://github.com/advisories/GHSA-8vmx-qmch-mpqg,github advisory,successful,,https://github.com/advisories/GHSA-8vmx-qmch-mpqg,github advisory,https://github.com/advisories/GHSA-8vmx-qmch-mpqg,github advisory,2019-04-18T14:27:35Z,https://api.github.com/advisories/GHSA-8vmx-qmch-mpqg,ok,GitHub advisory API exposes published_at; used as advisory availability date,published_at
+129,CVE-2020-5407,"Polish OpenSamlAuthenticationProvider
+
+- Use type-safe CriteriaSet
+- Keep Assertion immutable
+
+Closes gh-8471",,contains links,https://github.com/spring-projects/spring-security/commit/69b1bc62ffe7c1e1bbf508951efa1e0235954198,spring-projects/spring-security,https://github.com/spring-projects/spring-security/commit/69b1bc62ffe7c1e1bbf508951efa1e0235954198,200,,https://github.com/spring-projects/spring-security/issues/8471; https://github.com/spring-projects/spring-security/commit/f43d00fac6cdbcc8ecf683b10eb809ea555bf3b6,https://github.com/spring-projects/spring-security/issues/8471,github issue,successful,,https://github.com/spring-projects/spring-security/issues/8471,github issue,https://github.com/spring-projects/spring-security/issues/8471,github issue,2020-05-05T20:32:45Z,https://api.github.com/repos/spring-projects/spring-security/issues/8471,ok,,created_at
+130,CVE-2019-10354,[SECURITY-534],,contains links,https://github.com/stapler/stapler/commit/19637555a9f32d3875356b47234131d8b1e9fee4,stapler/stapler,https://github.com/stapler/stapler/commit/19637555a9f32d3875356b47234131d8b1e9fee4,200,,https://github.com/jenkinsci/stapler/commit/2f4ca0f03c1e6188867bddddce12ff213a107d9d,https://github.com/jenkinsci/stapler/commit/2f4ca0f03c1e6188867bddddce12ff213a107d9d,github commit,successful,,https://github.com/jenkinsci/stapler/commit/2f4ca0f03c1e6188867bddddce12ff213a107d9d,github commit,https://github.com/jenkinsci/stapler/commit/2f4ca0f03c1e6188867bddddce12ff213a107d9d,github commit,2019-04-08T14:19:21Z,https://api.github.com/repos/jenkinsci/stapler/commits/2f4ca0f03c1e6188867bddddce12ff213a107d9d,ok,GitHub commit URL has no created_at; used commit committer date,commit_committer_date
+131,CVE-2019-16771,"Merge pull request from GHSA-35fr-h7jr-hh86
+
+Motivation:
+
+An `HttpService` can produce a malformed HTTP response when a user
+specified a malformed HTTP header values, such as:
+
+    ResponseHeaders.of(HttpStatus.OK
+                       ""my-header"", ""foo\r\nbad-header: bar"");
+
+Modification:
+
+- Add strict header value validation to `HttpHeadersBase`
+- Add strict header name validation to `HttpHeaderNames.of()`, which is
+  used by `HttpHeadersBase`.
+
+Result:
+
+- It is not possible anymore to send a bad header value which can be
+  misused for sending additional headers or injecting arbitrary content.",,contains links,https://github.com/line/armeria/commit/b597f7a865a527a84ee3d6937075cfbb4470ed20,line/armeria,https://github.com/line/armeria/commit/b597f7a865a527a84ee3d6937075cfbb4470ed20,200,,https://github.com/advisories/GHSA-35fr-h7jr-hh86; https://github.com/line/armeria/commit/80310b36196b6fa6efd15af61635d2aa48c44418,https://github.com/advisories/GHSA-35fr-h7jr-hh86,github advisory,successful,,https://github.com/advisories/GHSA-35fr-h7jr-hh86,github advisory,https://github.com/advisories/GHSA-35fr-h7jr-hh86,github advisory,2019-12-06T18:55:47Z,https://api.github.com/advisories/GHSA-35fr-h7jr-hh86,ok,GitHub advisory API exposes published_at; used as advisory availability date,published_at
+132,CVE-2017-9797,"GEODE-3249: Validate internal client/server messages
+
+This is a squashed commit of the following from feature/GEODE-3249b:
+
+commit c16b151e57169733186f0c029d1957da32d59635
+    ""spotless"" fixes
+
+commit f8e7ddd5e4696907ce60a14f581ef1ca83e65232
+
+    GEODE-3249: Validate internal client/server messages
+
+    This was merely a matter of changing the server to require the credentials
+    and changing the client to send credentials.  I removed the general overriding
+    of AbstractOp.processSecureBytes() because it made no sense.  If the server
+    sends a secure byte ""part"" in a message the client is obligated to process
+    it or the next message it sends will cause a security violation.
+
+    I've added a server-side property that folks can set to allow old clients
+    to continue to work.  This must be used to roll the servers forward to the
+    new version that contains this change.  Clients must then be rolled
+    forward & the servers can then be rolled once again without the property set.
+
+    The system property is
+      geode.allow-internal-messages-without-credentials=true",,contains links,https://github.com/apache/geode/commit/6be38ca;https://github.com/apache/geode/commit/6c2ea4a;https://github.com/apache/geode/commit/41e14dd;https://github.com/apache/geode/commit/f8e7ddd;https://github.com/apache/geode/commit/6ee5771;https://github.com/apache/geode/commit/0b881b5;https://github.com/apache/geode/commit/c2efd80;https://github.com/apache/geode/commit/1b03524;https://github.com/apache/geode/commit/7cbbf67;https://github.com/apache/geode/commit/e0fbb3c;https://github.com/apache/geode/commit/99b0fd6;https://github.com/apache/geode/commit/c8a3654,apache/geode,https://github.com/apache/geode/commit/6be38ca,200,,https://github.com/apache/geode/commit/c16b151e57169733186f0c029d1957da32d59635; https://github.com/apache/geode/commit/f8e7ddd5e4696907ce60a14f581ef1ca83e65232; https://github.com/apache/geode/commit/bb988caa5969d35948fd603f73bb1a32e879ef78,https://github.com/apache/geode/commit/c16b151e57169733186f0c029d1957da32d59635,github commit,successful,,https://github.com/apache/geode/commit/c16b151e57169733186f0c029d1957da32d59635,github commit,https://github.com/apache/geode/commit/c16b151e57169733186f0c029d1957da32d59635,github commit,2017-08-16T15:14:04Z,https://api.github.com/repos/apache/geode/commits/c16b151e57169733186f0c029d1957da32d59635,ok,GitHub commit URL has no created_at; used commit committer date,commit_committer_date
+133,CVE-2020-11998,"AMQ-7490 - Fix JMX regression
+
+(cherry picked from commit aa8900ca70e6f9422490c1a03627400375d3ff83)",,contains links,https://github.com/apache/activemq/commit/0d6e5f240ef34bae2e4089102047593bef628e6c,apache/activemq,https://github.com/apache/activemq/commit/0d6e5f240ef34bae2e4089102047593bef628e6c,200,,https://issues.apache.org/jira/browse/AMQ-7490; https://github.com/apache/activemq/commit/aa8900ca70e6f9422490c1a03627400375d3ff83; https://github.com/apache/activemq/commit/82f3658ce188090f25152b6ad0d4f99450040693,https://issues.apache.org/jira/browse/AMQ-7490,apache issue tracker,successful,,https://issues.apache.org/jira/browse/AMQ-7490,jira issue tracker,https://issues.apache.org/jira/browse/AMQ-7490,jira issue tracker,2020-05-22T08:56:00Z,https://issues.apache.org/jira/browse/AMQ-7490,ok,parsed from Jira HTML fallback,created_at
+134,CVE-2018-1258,"Add accessDeniedHandler method to ExceptionHandlingSpec
+
+This allows to configure accessDeniedHandler in ExceptionTranslationWebFilter through ServerHttpSecurity.
+
+Issue: gh-5257",,contains links,https://github.com/spring-projects/spring-security/commit/7b8fa90d96aaf751a3256fa755d5f17e081c20f1,spring-projects/spring-security,https://github.com/spring-projects/spring-security/commit/7b8fa90d96aaf751a3256fa755d5f17e081c20f1,200,,https://github.com/spring-projects/spring-security/issues/5257; https://github.com/spring-projects/spring-security/commit/c30e218f1fb4ce5488a18ff9e582b5dbdf88ac26,https://github.com/spring-projects/spring-security/issues/5257,github issue,successful,,https://github.com/spring-projects/spring-security/issues/5257,github issue,https://github.com/spring-projects/spring-security/issues/5257,github issue,2018-04-24T09:39:25Z,https://api.github.com/repos/spring-projects/spring-security/issues/5257,ok,,created_at
+135,CVE-2018-8013,not found,,contains links,https://github.com/apache/xmlgraphics-batik/commit/f91125b26a6ca2b7a1195f1842360bed03629839;https://github.com/apache/xmlgraphics-batik/commit/c5e5734293920250f2876648ac93660afc1d2923,apache/xmlgraphics-batik,https://github.com/apache/xmlgraphics-batik/commit/f91125b26a6ca2b7a1195f1842360bed03629839,200,,https://svn.apache.org/repos/asf/xmlgraphics/batik/trunk@1831241; https://github.com/apache/xmlgraphics-batik/commit/23df647cf944b6c33ab23f0433305c153e247839,https://svn.apache.org/repos/asf/xmlgraphics/batik/trunk@1831241,source/tracker link,successful,,https://svn.apache.org/repos/asf/xmlgraphics/batik/trunk@1831241,svn/source link,https://svn.apache.org/repos/asf/xmlgraphics/batik/trunk@1831241,svn/source link,,https://svn.apache.org/repos/asf/xmlgraphics/batik/trunk@1831241,not_available,"SVN revision date not found for r1831241; last error: <!DOCTYPE HTML PUBLIC ""-//IETF//DTD HTML 2.0//EN"">
+<html><head>
+<title>401 Unauthorized</title>
+</head><body>
+<h1>Unauthorized</h1>
+<p>This server could not verify that you
+are authorized to access the document
+requested.  Either you supplied the wrong
+credentials (e.g., bad password), or your
+browser doesn't understand how to supply
+the credentials required.</p>
+</body></html>
+ (401) for https://svn.apache.org/repos/asf/xmlgraphics/batik/trunk@1831241",
+136,CVE-2020-13946,"Only allow strings to be passed to JMX authentication
+
+ patch by Brandon Williams; reviewed by Mick Semb Wever for CASSANDRA-16077",,contains links,https://github.com/apache/cassandra/commit/63f4da90c3c51d230c535265786dbc7a33c1ace9,apache/cassandra,https://github.com/apache/cassandra/commit/63f4da90c3c51d230c535265786dbc7a33c1ace9,200,,https://issues.apache.org/jira/browse/CASSANDRA-16077; https://github.com/apache/cassandra/commit/d28f769fc6dae2ddbc150723a4069c765fc80c08,https://issues.apache.org/jira/browse/CASSANDRA-16077,apache issue tracker,successful,,https://issues.apache.org/jira/browse/CASSANDRA-16077,jira issue tracker,https://issues.apache.org/jira/browse/CASSANDRA-16077,jira issue tracker,2020-08-27T16:20:00Z,https://issues.apache.org/jira/browse/CASSANDRA-16077,ok,parsed from Jira HTML fallback,created_at
+137,CVE-2020-11989,"The context path is no longer used when determining the path application path
+
+Servlet-Path + Path-Info is used instead
+
+NOTE: some servlet containers will decode the context-path (Tomcat) and others will not (Jetty).  Per the Servlet spect the servlet-path and path-info are always decoded.
+Shiro only makes decisions based on the application path, I.e. the request URI with the context-path removed, so we can just avoid dealing with it all together.
+
+`WebUtils.getRequestURI()` has been deprecated to reflect this, and the previous behavior restored (as there was an issue with double decoding the URL in SHIRO-753)
+
+Fixes: SHIRO-753",,contains links,https://github.com/apache/shiro/commit/b90f91875e5e18c4805013c2fa0567b1700f5a96,apache/shiro,https://github.com/apache/shiro/commit/b90f91875e5e18c4805013c2fa0567b1700f5a96,200,,https://issues.apache.org/jira/browse/SHIRO-753; https://github.com/apache/shiro/commit/4cf242d29552876ba09bc7e1ca0b841ba5ae4017,https://issues.apache.org/jira/browse/SHIRO-753,apache issue tracker,successful,,https://issues.apache.org/jira/browse/SHIRO-753,jira issue tracker,https://issues.apache.org/jira/browse/SHIRO-753,jira issue tracker,2020-04-07T09:41:00Z,https://issues.apache.org/jira/browse/SHIRO-753,ok,parsed from Jira HTML fallback,created_at
+138,CVE-2018-11786,[KARAF-5427] Add RBAC support for reflection invocation and redirections in the console,,contains links,https://github.com/apache/karaf/commit/103f33105a58c899706a0687bb334678e2fa1ee7;https://github.com/apache/karaf/commit/24fb477ea886e8f294dedbad98d2a2c4cb2a44f9,apache/karaf,https://github.com/apache/karaf/commit/103f33105a58c899706a0687bb334678e2fa1ee7,200,,https://issues.apache.org/jira/browse/KARAF-5427; https://github.com/apache/karaf/commit/066d28aa455d896ac6269c0b0efca67cda90c716,https://issues.apache.org/jira/browse/KARAF-5427,apache issue tracker,successful,,https://issues.apache.org/jira/browse/KARAF-5427,jira issue tracker,https://issues.apache.org/jira/browse/KARAF-5427,jira issue tracker,2017-10-16T13:52:00Z,https://issues.apache.org/jira/browse/KARAF-5427,ok,parsed from Jira HTML fallback,created_at
+139,CVE-2016-1181,Fixed CVE-2016-1181 and CVE-2016-1182,,contains links,https://github.com/kawasima/struts1-forever/commit/eda3a79907ed8fcb0387a0496d0cb14332f250e8,kawasima/struts1-forever,https://github.com/kawasima/struts1-forever/commit/eda3a79907ed8fcb0387a0496d0cb14332f250e8,200,,https://github.com/advisories/GHSA-7jw3-5q4w-89qg; https://github.com/advisories/GHSA-5ggr-mpgw-3mgx; https://github.com/kawasima/struts1-forever/commit/fdd9eb8f94ca75eb9effac9602b9d4ee0cb904b5,https://github.com/advisories/GHSA-7jw3-5q4w-89qg,github advisory,successful,,https://github.com/advisories/GHSA-7jw3-5q4w-89qg,github advisory,https://github.com/advisories/GHSA-7jw3-5q4w-89qg,github advisory,2022-05-13T01:25:20Z,https://api.github.com/advisories/GHSA-7jw3-5q4w-89qg,ok,GitHub advisory API exposes published_at; used as advisory availability date,published_at
+140,CVE-2014-3529,not found,,contains links,https://github.com/apache/poi/commit/103b45073c7b504236588b3acc146530205af53c;https://github.com/apache/poi/commit/236c3c52a9b90688b2e57ec503559409e29f33ed;https://github.com/apache/poi/commit/d72bd78c19dfb7b57395a66ae8d9269d59a87bd2;https://github.com/apache/poi/commit/6050a68d5adfb4ffef1edb778add09bcee32d1c3;https://github.com/apache/poi/commit/eabb6a924be24abb879372d0bc967e0d316b2cf8,apache/poi,https://github.com/apache/poi/commit/103b45073c7b504236588b3acc146530205af53c,200,,https://svn.apache.org/repos/asf/poi/branches/REL_3_10_BRANCH@1616509; https://github.com/apache/poi/commit/dfa98753acd28420afe3b0a0cbb906ab71b9bf4d,https://svn.apache.org/repos/asf/poi/branches/REL_3_10_BRANCH@1616509,source/tracker link,successful,,https://svn.apache.org/repos/asf/poi/branches/REL_3_10_BRANCH@1616509,svn/source link,https://svn.apache.org/repos/asf/poi/branches/REL_3_10_BRANCH@1616509,svn/source link,,https://svn.apache.org/repos/asf/poi/branches/REL_3_10_BRANCH@1616509,not_available,"SVN revision date not found for r1616509; last error: <!DOCTYPE HTML PUBLIC ""-//IETF//DTD HTML 2.0//EN"">
+<html><head>
+<title>401 Unauthorized</title>
+</head><body>
+<h1>Unauthorized</h1>
+<p>This server could not verify that you
+are authorized to access the document
+requested.  Either you supplied the wrong
+credentials (e.g., bad password), or your
+browser doesn't understand how to supply
+the credentials required.</p>
+</body></html>
+ (401) for https://svn.apache.org/repos/asf/poi/branches/REL_3_10_BRANCH@1616509",
+141,CVE-2018-1284,"HIVE-18879: Disallow embedded element in UDFXPathUtil needs to work if xercesImpl.jar in classpath (Daniel Dai, reviewed by Thejas Nair)",,contains links,https://github.com/apache/hive/commit/f80a38ae1174553022deae4f8774918401d9756d,apache/hive,https://github.com/apache/hive/commit/f80a38ae1174553022deae4f8774918401d9756d,200,,https://issues.apache.org/jira/browse/HIVE-18879; https://github.com/apache/hive/commit/b25b029e668273a35b4d6822f41930c2d90883d2,https://issues.apache.org/jira/browse/HIVE-18879,apache issue tracker,successful,,https://issues.apache.org/jira/browse/HIVE-18879,jira issue tracker,https://issues.apache.org/jira/browse/HIVE-18879,jira issue tracker,2018-03-06T22:05:00Z,https://issues.apache.org/jira/browse/HIVE-18879,ok,parsed from Jira HTML fallback,created_at
