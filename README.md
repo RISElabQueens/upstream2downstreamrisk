@@ -1,4 +1,4 @@
-# Upstream2Downstream Replication Package
+# From Report to Adoption: Linking Upstream Vulnerability Lifecycles to Downstream Mitigation in Maven Replication Package
 
 This replication package contains the notebooks and datasets used to reproduce the analyses for RQ1, RQ2, and RQ3. It was prepared as a clean copy from the working directory while keeping the original files unchanged.
 
